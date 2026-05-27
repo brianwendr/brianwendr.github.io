@@ -8,10 +8,6 @@ profile:
   align: right
   image: ycwen-portrait.png
   image_circular: false
-  more_info: >
-    <p>Senior Program Manager, MediaTek</p>
-    <p>Adjunct Assistant Professor, National Taipei University</p>
-    <p>Taipei, Taiwan</p>
 
 news: false
 selected_papers: true
