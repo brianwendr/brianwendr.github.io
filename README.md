@@ -1,4 +1,4 @@
-# Y.C. Wen Personal Website
+# Brian Wen Personal Website
 
 This repository hosts the source for [https://brianwendr.github.io](https://brianwendr.github.io).
 
