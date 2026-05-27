@@ -1,0 +1,79 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Y.C. Wen
+    - name: Location
+      value: Taipei, Taiwan
+    - name: Languages
+      value: Chinese, English, Japanese
+    - name: Email
+      value: brianwen@mail.ntpu.edu.tw
+
+- title: Current Roles
+  type: time_table
+  contents:
+    - title: Senior Program Manager
+      institution: MediaTek
+      year: 2023 - Present
+      description:
+        - Works at the coordination layer of technology, product execution, and cross-functional delivery.
+        - Brings direct experience with high-complexity programs, product cadence, and long-horizon technical planning.
+    - title: Adjunct Assistant Professor
+      institution: National Taipei University
+      year: 2024 - Present
+      description:
+        - Connects research methods, systems thinking, and management topics with practical decision contexts.
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Engineering Project Manager
+      institution: Garmin
+      year: 2020 - 2023
+      description:
+        - Led engineering and product delivery work from execution planning through product realization.
+        - Built project governance experience around decision quality, schedule discipline, and operational outcomes.
+    - title: Data Analyst / Contractor
+      institution: Airbus
+      year: 2017
+      description:
+        - Participated in analytical work within an international industrial environment.
+        - Gained exposure to cross-cultural processes and high-standard operational requirements.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in IT Management / Information Management / Operational Research
+      institution: National Taiwan University
+      year: 2018 - 2023
+    - title: M.Sc. in Business Analytics and Management Sciences
+      institution: University of Southampton
+      year: 2016 - 2017
+    - title: B.Sc. and M.Sc. in Electronic Communication Engineering
+      institution: Yuan Ze University
+      year: 2009 - 2015
+
+- title: Core Strengths
+  type: nested_list
+  contents:
+    - title: Technology and Product Governance
+      items:
+        - Semiconductor and communication engineering context.
+        - IoT, technical product management, and product-roadmap evaluation.
+    - title: Analytics and Modeling
+      items:
+        - Statistical computing, data modeling, stochastic simulation, and prescriptive analytics.
+        - Operational research methods for decision support.
+    - title: Program and Execution Governance
+      items:
+        - Cross-functional program management in complex technical organizations.
+        - Risk sensing, schedule discipline, quality thinking, and organizational coordination.
+
+- title: Honors and Service
+  type: list
+  contents:
+    - Selected Best Paper Award
+    - Bronze Medal, Southampton International Studentship
+    - Chartered Representative / Phi Tau Phi Honorary
+    - Journal Reviewer
