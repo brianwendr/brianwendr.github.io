@@ -28,6 +28,12 @@
 - title: Professional Experience
   type: time_table
   contents:
+    - title: System Engineer
+      institution: Garmin
+      year: 2020 - 2023
+      description:
+        - Supported engineering execution and system-level product development work.
+        - Built hands-on experience connecting technical requirements, implementation progress, and product quality.
     - title: Engineering Project Manager
       institution: Garmin
       year: 2020 - 2023
