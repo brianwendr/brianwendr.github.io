@@ -3,6 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: Strategy & Governance Consultant
+subtitle_lines:
+  - Assistant Professor, National Taipei University
+  - Senior Solution Manager, MediaTek
 
 profile:
   align: right
@@ -16,7 +19,7 @@ social: true
 
 I help organizations translate technology, data, and operational complexity into clearer strategic and governance decisions. My work sits at the intersection of semiconductor and communication engineering, product and program governance, statistical computing, mathematical modeling, and prescriptive analytics.
 
-Currently, I serve as a **Senior Program Manager at MediaTek** and an **Adjunct Assistant Professor at National Taipei University**. This dual perspective keeps my work grounded in both execution and analysis: how technical roadmaps become products, how cross-functional teams manage risk, and how structured evidence can support better long-term decisions.
+Currently, I serve as a **Senior Solution Manager at MediaTek** and an **Assistant Professor at National Taipei University**. This dual perspective keeps my work grounded in both execution and analysis: how technical roadmaps become products, how cross-functional teams manage risk, and how structured evidence can support better long-term decisions.
 
 <div class="advisory-callout">
   <p class="eyebrow">Technology × Data × Governance</p>

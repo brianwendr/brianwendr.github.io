@@ -12,6 +12,13 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle_lines %}
+      <div class="title-affiliations">
+        {% for line in page.subtitle_lines %}
+          <div>{{ line }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
   </header>
 
   <article>
