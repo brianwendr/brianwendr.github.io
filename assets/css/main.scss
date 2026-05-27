@@ -220,6 +220,29 @@ h4,
   line-height: 1.55;
 }
 
+.post article > h2:has(a[href="/publications/"]) {
+  margin-top: 3rem;
+}
+
+.post article > .publications {
+  margin-bottom: 2rem;
+}
+
+.social {
+  margin: 2.5rem 0 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.social .contact-icons {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+footer.sticky-bottom {
+  margin-top: 3rem;
+}
+
 @media (max-width: 575px) {
   body {
     font-size: 0.98rem;
@@ -246,5 +269,13 @@ h4,
     max-width: 19rem;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .social {
+    margin-top: 2rem;
+  }
+
+  .social .contact-icons {
+    font-size: 2.35rem;
   }
 }
