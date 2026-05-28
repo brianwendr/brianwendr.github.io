@@ -97,6 +97,79 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
+.teaching-list {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.teaching-course {
+  padding: 1.35rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  background: var(--global-card-bg-color);
+}
+
+.teaching-course h2 {
+  margin-top: 0;
+}
+
+.teaching-course h2 span {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.course-label {
+  margin-bottom: 0.45rem;
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.course-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.course-meta > div {
+  padding: 0.95rem;
+  border-left: 3px solid var(--global-theme-color);
+  background: rgba(130, 130, 130, 0.08);
+}
+
+.course-meta strong,
+.course-meta span {
+  display: block;
+}
+
+.course-meta strong {
+  margin-bottom: 0.35rem;
+}
+
+.course-schedule {
+  columns: 2;
+  column-gap: 2rem;
+  padding-left: 1.25rem;
+}
+
+.course-schedule li {
+  break-inside: avoid;
+  margin-bottom: 0.35rem;
+}
+
+@media (max-width: 768px) {
+  .course-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .course-schedule {
+    columns: 1;
+  }
+}
+
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.02rem;
