@@ -1,78 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
-  <title id="title">Microservice quality assessment framework with data modeling, MLP prediction, and Kaplan-Meier reliability simulation</title>
-  <desc id="desc">A framework showing enterprise requirements, microservice architecture, data modeling, simulation, reliability prediction, and service quality improvement.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" role="img" aria-labelledby="title desc">
+  <title id="title">Academic research framework for Industry 4.0 microservice quality assessment</title>
+  <desc id="desc">A research framework connecting service-dominant logic, microservice architecture, data modeling, MLP prediction, Kaplan-Meier reliability simulation, and service innovation outcomes.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#496889"/>
+      <path d="M0 0 L10 5 L0 10 Z" fill="#49637f"/>
     </marker>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8fafc"/>
-      <stop offset="1" stop-color="#edf4f7"/>
+      <stop offset="0" stop-color="#f9fbfd"/>
+      <stop offset="1" stop-color="#eef5f7"/>
     </linearGradient>
     <style>
       .bg{fill:url(#bg)}
-      .panel{fill:#fff;stroke:#ccd8e2;stroke-width:2}
-      .engine{fill:#e9f0f7;stroke:#496889;stroke-width:2.5}
-      .service{fill:#eef5ef;stroke:#4f7d5a;stroke-width:2}
-      .decision{fill:#f4efe4;stroke:#aa8238;stroke-width:2}
-      .title{font:700 30px Inter,Arial,sans-serif;fill:#203039}
-      .subtitle{font:600 16px Inter,Arial,sans-serif;fill:#61707a}
-      .label{font:700 18px Inter,Arial,sans-serif;fill:#203039}
-      .small{font:500 14px Inter,Arial,sans-serif;fill:#52616b}
-      .tiny{font:600 12px Inter,Arial,sans-serif;fill:#496889;letter-spacing:.6px}
-      .line{fill:none;stroke:#496889;stroke-width:2.5;marker-end:url(#arrow)}
+      .lane{fill:#ffffff;stroke:#d2dce5;stroke-width:1.6}
+      .theory{fill:#eef6f0;stroke:#4d7c59;stroke-width:2}
+      .data{fill:#eef2f8;stroke:#49637f;stroke-width:2}
+      .method{fill:#f5f0e6;stroke:#a67f37;stroke-width:2}
+      .impact{fill:#f3f7fb;stroke:#657993;stroke-width:2}
+      .note{fill:#fbfcfd;stroke:#becbd0;stroke-width:1.5}
+      .line{fill:none;stroke:#49637f;stroke-width:2.4;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#7b8a96;stroke-width:1.8;stroke-dasharray:6 6;marker-end:url(#arrow)}
+      .title{font:700 30px Inter,Arial,sans-serif;fill:#1f3039}
+      .subtitle{font:600 15px Inter,Arial,sans-serif;fill:#61717c}
+      .lane-title{font:750 12px Inter,Arial,sans-serif;fill:#49637f;letter-spacing:1px}
+      .label{font:700 16px Inter,Arial,sans-serif;fill:#1f3039}
+      .small{font:500 13px Inter,Arial,sans-serif;fill:#52616b}
+      .tag{font:700 11px Inter,Arial,sans-serif;fill:#49637f;letter-spacing:.7px}
     </style>
   </defs>
-  <rect class="bg" width="1120" height="680" rx="24"/>
-  <text class="title" x="52" y="64">Industry 4.0 Microservice Quality Assessment</text>
-  <text class="subtitle" x="52" y="94">Service innovation through data modeling, simulation, and reliability prediction</text>
 
-  <rect class="panel" x="54" y="150" width="230" height="128" rx="14"/>
-  <text class="tiny" x="82" y="186">ENTERPRISE CONTEXT</text>
-  <text class="label" x="82" y="217">Customer Needs</text>
-  <text class="small" x="82" y="245">third-party requirements</text>
-  <text class="small" x="82" y="268">integration constraints</text>
+  <rect class="bg" width="1180" height="720" rx="24"/>
+  <text class="title" x="48" y="58">Microservice Quality Assessment Research Framework</text>
+  <text class="subtitle" x="48" y="86">Service innovation through data modeling, reliability simulation, and computational learning</text>
 
-  <rect class="service" x="54" y="395" width="230" height="128" rx="14"/>
-  <text class="tiny" x="82" y="431">ARCHITECTURE</text>
-  <text class="label" x="82" y="462">Microservices</text>
-  <text class="small" x="82" y="490">API-based modularization</text>
-  <text class="small" x="82" y="513">scalable service bundles</text>
+  <rect class="lane" x="44" y="118" width="238" height="478" rx="16"/>
+  <text class="lane-title" x="72" y="150">SERVICE ECOSYSTEM</text>
 
-  <rect class="engine" x="382" y="146" width="288" height="132" rx="16"/>
-  <text class="tiny" x="424" y="182">DATA MODELING</text>
-  <text class="label" x="424" y="213">Production Dataset</text>
-  <text class="small" x="424" y="241">feature extraction</text>
-  <text class="small" x="424" y="264">service quality indicators</text>
+  <rect class="lane" x="322" y="118" width="238" height="478" rx="16"/>
+  <text class="lane-title" x="350" y="150">SYSTEM ARCHITECTURE</text>
 
-  <rect class="engine" x="382" y="395" width="288" height="132" rx="16"/>
-  <text class="tiny" x="424" y="431">COMPUTATIONAL LEARNING</text>
-  <text class="label" x="424" y="462">MLP Reliability Model</text>
-  <text class="small" x="424" y="490">failure and quality prediction</text>
-  <text class="small" x="424" y="513">low-loss scenario evaluation</text>
+  <rect class="lane" x="600" y="118" width="264" height="478" rx="16"/>
+  <text class="lane-title" x="628" y="150">ANALYTICAL VALIDATION</text>
 
-  <rect class="panel" x="760" y="146" width="284" height="132" rx="16"/>
-  <text class="tiny" x="802" y="182">SIMULATION</text>
-  <text class="label" x="802" y="213">Kaplan-Meier Estimation</text>
-  <text class="small" x="802" y="241">reliability curve assessment</text>
-  <text class="small" x="802" y="264">service survival comparison</text>
+  <rect class="lane" x="904" y="118" width="232" height="478" rx="16"/>
+  <text class="lane-title" x="932" y="150">RESEARCH CONTRIBUTION</text>
 
-  <rect class="decision" x="760" y="395" width="284" height="132" rx="16"/>
-  <text class="tiny" x="802" y="431">DECISION OUTCOME</text>
-  <text class="label" x="802" y="462">Service Innovation</text>
-  <text class="small" x="802" y="490">quality improvement pathway</text>
-  <text class="small" x="802" y="513">value co-creation design</text>
+  <rect class="theory" x="72" y="178" width="182" height="80" rx="12"/>
+  <text class="label" x="98" y="210">S-D Logic</text>
+  <text class="small" x="98" y="234">value co-creation</text>
+  <text class="small" x="98" y="254">service exchange</text>
 
-  <rect class="decision" x="382" y="565" width="288" height="70" rx="14"/>
-  <text class="tiny" x="424" y="594">VALIDATED IMPACT</text>
-  <text class="label" x="424" y="622">Decision support for scalable systems</text>
+  <rect class="theory" x="72" y="318" width="182" height="80" rx="12"/>
+  <text class="label" x="98" y="350">Partner Needs</text>
+  <text class="small" x="98" y="374">third-party criteria</text>
+  <text class="small" x="98" y="394">integration demand</text>
 
-  <path class="line" d="M284 214 L382 214"/>
-  <path class="line" d="M284 459 L382 459"/>
-  <path class="line" d="M526 278 L526 395"/>
-  <path class="line" d="M670 214 L760 214"/>
-  <path class="line" d="M670 459 L760 459"/>
-  <path class="line" d="M902 278 L902 395"/>
-  <path class="line" d="M760 473 C720 560 690 599 670 599"/>
-  <path class="line" d="M526 527 L526 565"/>
+  <rect class="theory" x="72" y="458" width="182" height="80" rx="12"/>
+  <text class="label" x="98" y="490">Industry 4.0</text>
+  <text class="small" x="98" y="514">manufacturing data</text>
+  <text class="small" x="98" y="534">platform context</text>
+
+  <rect class="data" x="350" y="178" width="182" height="80" rx="12"/>
+  <text class="label" x="376" y="210">Microservice</text>
+  <text class="small" x="376" y="234">modular APIs</text>
+  <text class="small" x="376" y="254">service bundles</text>
+
+  <rect class="data" x="350" y="318" width="182" height="80" rx="12"/>
+  <text class="label" x="376" y="350">Process Flow</text>
+  <text class="small" x="376" y="374">dynamic service path</text>
+  <text class="small" x="376" y="394">quality checkpoints</text>
+
+  <rect class="data" x="350" y="458" width="182" height="80" rx="12"/>
+  <text class="label" x="376" y="490">Feature Space</text>
+  <text class="small" x="376" y="514">production records</text>
+  <text class="small" x="376" y="534">reliability metrics</text>
+
+  <rect class="method" x="628" y="158" width="208" height="74" rx="12"/>
+  <text class="tag" x="658" y="187">MODEL 1</text>
+  <text class="label" x="658" y="210">Data Modeling</text>
+
+  <rect class="method" x="628" y="274" width="208" height="74" rx="12"/>
+  <text class="tag" x="658" y="303">MODEL 2</text>
+  <text class="label" x="658" y="326">MLP Prediction</text>
+
+  <rect class="method" x="628" y="390" width="208" height="74" rx="12"/>
+  <text class="tag" x="658" y="419">MODEL 3</text>
+  <text class="label" x="658" y="442">KM Reliability</text>
+
+  <rect class="method" x="628" y="506" width="208" height="74" rx="12"/>
+  <text class="tag" x="658" y="535">SYNTHESIS</text>
+  <text class="label" x="658" y="558">Scenario Simulation</text>
+
+  <rect class="impact" x="932" y="178" width="176" height="80" rx="12"/>
+  <text class="label" x="958" y="210">Reliability</text>
+  <text class="small" x="958" y="234">quality diagnosis</text>
+  <text class="small" x="958" y="254">risk comparison</text>
+
+  <rect class="impact" x="932" y="318" width="176" height="80" rx="12"/>
+  <text class="label" x="958" y="350">Innovation</text>
+  <text class="small" x="958" y="374">service redesign</text>
+  <text class="small" x="958" y="394">scalable modules</text>
+
+  <rect class="impact" x="932" y="458" width="176" height="80" rx="12"/>
+  <text class="label" x="958" y="490">Governance</text>
+  <text class="small" x="958" y="514">vendor alignment</text>
+  <text class="small" x="958" y="534">decision support</text>
+
+  <rect class="note" x="174" y="628" width="832" height="54" rx="12"/>
+  <text class="label" x="208" y="660">Evidence base:</text>
+  <text class="small" x="328" y="660">NASDAQ-listed electronics firm, two automobile partners, reported 12% quality improvement.</text>
+
+  <path class="line" d="M254 218 L350 218"/>
+  <path class="line" d="M254 358 L350 358"/>
+  <path class="line" d="M254 498 L350 498"/>
+  <path class="line" d="M532 218 C574 218 588 195 628 195"/>
+  <path class="line" d="M532 358 C574 354 588 311 628 311"/>
+  <path class="line" d="M532 498 C574 494 588 427 628 427"/>
+  <path class="line" d="M732 232 L732 274"/>
+  <path class="line" d="M732 348 L732 390"/>
+  <path class="line" d="M732 464 L732 506"/>
+  <path class="line" d="M836 195 C880 196 894 218 932 218"/>
+  <path class="line" d="M836 311 C880 312 894 358 932 358"/>
+  <path class="line" d="M836 543 C880 538 894 498 932 498"/>
+  <path class="dash" d="M590 628 C620 604 673 584 732 580"/>
 </svg>

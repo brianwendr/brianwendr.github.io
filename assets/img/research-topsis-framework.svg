@@ -1,72 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
-  <title id="title">TOPSIS decision intelligence framework for Industry 4.0 product and process design</title>
-  <desc id="desc">A research framework linking Industry 4.0 data, capability criteria, TOPSIS weighting, mediators, and product and process innovation decisions.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" role="img" aria-labelledby="title desc">
+  <title id="title">Academic research framework for TOPSIS-based Industry 4.0 decision science</title>
+  <desc id="desc">A multi-criteria decision analysis framework connecting Industry 4.0 data, theoretical constructs, TOPSIS computation, validation, and managerial implications.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f6f73"/>
+      <path d="M0 0 L10 5 L0 10 Z" fill="#315f64"/>
     </marker>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f7fbfb"/>
-      <stop offset="1" stop-color="#eef4f2"/>
+      <stop offset="0" stop-color="#f8fbfb"/>
+      <stop offset="1" stop-color="#edf4f2"/>
     </linearGradient>
     <style>
       .bg{fill:url(#bg)}
-      .panel{fill:#fff;stroke:#c8d8d7;stroke-width:2}
-      .hub{fill:#e5f1ef;stroke:#2f6f73;stroke-width:2.5}
-      .accent{fill:#f1efe7;stroke:#b08b3e;stroke-width:2}
-      .result{fill:#eef2f8;stroke:#4c6388;stroke-width:2}
-      .title{font:700 30px Inter,Arial,sans-serif;fill:#203233}
-      .subtitle{font:600 16px Inter,Arial,sans-serif;fill:#5d6e70}
-      .label{font:700 18px Inter,Arial,sans-serif;fill:#203233}
-      .small{font:500 14px Inter,Arial,sans-serif;fill:#506164}
-      .tiny{font:600 12px Inter,Arial,sans-serif;fill:#2f6f73;letter-spacing:.6px}
-      .line{fill:none;stroke:#2f6f73;stroke-width:2.5;marker-end:url(#arrow)}
+      .lane{fill:#ffffff;stroke:#d4dfdd;stroke-width:1.6}
+      .construct{fill:#eef6f4;stroke:#326e70;stroke-width:2}
+      .method{fill:#f4f1e8;stroke:#aa843c;stroke-width:2}
+      .outcome{fill:#eef2f8;stroke:#506b92;stroke-width:2}
+      .note{fill:#fbfcfd;stroke:#becbd0;stroke-width:1.5}
+      .line{fill:none;stroke:#315f64;stroke-width:2.4;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#7b8e90;stroke-width:1.8;stroke-dasharray:6 6;marker-end:url(#arrow)}
+      .title{font:700 30px Inter,Arial,sans-serif;fill:#1f3032}
+      .subtitle{font:600 15px Inter,Arial,sans-serif;fill:#607173}
+      .lane-title{font:750 12px Inter,Arial,sans-serif;fill:#315f64;letter-spacing:1px}
+      .label{font:700 16px Inter,Arial,sans-serif;fill:#1f3032}
+      .small{font:500 13px Inter,Arial,sans-serif;fill:#526367}
+      .tag{font:700 11px Inter,Arial,sans-serif;fill:#315f64;letter-spacing:.7px}
     </style>
   </defs>
-  <rect class="bg" width="1120" height="680" rx="24"/>
-  <text class="title" x="52" y="64">TOPSIS System Analysis for Industry 4.0 Design</text>
-  <text class="subtitle" x="52" y="94">From ambiguous criteria to ranked product and process decisions</text>
 
-  <rect class="panel" x="54" y="145" width="235" height="132" rx="14"/>
-  <text class="tiny" x="82" y="181">INPUT CONTEXT</text>
-  <text class="label" x="82" y="212">Industry 4.0 Data</text>
-  <text class="small" x="82" y="240">cloud platform signals</text>
-  <text class="small" x="82" y="263">R&amp;D and production records</text>
+  <rect class="bg" width="1180" height="720" rx="24"/>
+  <text class="title" x="48" y="58">TOPSIS-Based Enterprise Decision Science Framework</text>
+  <text class="subtitle" x="48" y="86">Industry 4.0 product and process design as a multi-criteria decision analysis problem</text>
 
-  <rect class="panel" x="54" y="388" width="235" height="132" rx="14"/>
-  <text class="tiny" x="82" y="424">CAPABILITY BASE</text>
-  <text class="label" x="82" y="455">Core Technologies</text>
-  <text class="small" x="82" y="483">knowledge-based capability</text>
-  <text class="small" x="82" y="506">automation readiness</text>
+  <rect class="lane" x="44" y="118" width="238" height="478" rx="16"/>
+  <text class="lane-title" x="72" y="150">EMPIRICAL CONTEXT</text>
 
-  <rect class="hub" x="386" y="242" width="282" height="172" rx="18"/>
-  <text class="tiny" x="428" y="286">ANALYTICAL ENGINE</text>
-  <text class="label" x="428" y="322">TOPSIS Decision Model</text>
-  <text class="small" x="428" y="352">normalize criteria</text>
-  <text class="small" x="428" y="375">construct weights and ranks</text>
-  <text class="small" x="428" y="398">identify priority alternatives</text>
+  <rect class="lane" x="322" y="118" width="238" height="478" rx="16"/>
+  <text class="lane-title" x="350" y="150">THEORETICAL CONSTRUCTS</text>
 
-  <rect class="accent" x="752" y="145" width="266" height="132" rx="14"/>
-  <text class="tiny" x="782" y="181">MEDIATOR</text>
-  <text class="label" x="782" y="212">Integration Level</text>
-  <text class="small" x="782" y="240">modular system design</text>
-  <text class="small" x="782" y="263">product and platform coupling</text>
+  <rect class="lane" x="600" y="118" width="264" height="478" rx="16"/>
+  <text class="lane-title" x="628" y="150">MCDA METHODOLOGY</text>
 
-  <rect class="accent" x="752" y="388" width="266" height="132" rx="14"/>
-  <text class="tiny" x="782" y="424">MEDIATOR</text>
-  <text class="label" x="782" y="455">Resource Allocation</text>
-  <text class="small" x="782" y="483">portfolio prioritization</text>
-  <text class="small" x="782" y="506">process investment choices</text>
+  <rect class="lane" x="904" y="118" width="232" height="478" rx="16"/>
+  <text class="lane-title" x="932" y="150">DECISION IMPLICATIONS</text>
 
-  <rect class="result" x="386" y="548" width="282" height="82" rx="14"/>
-  <text class="tiny" x="428" y="581">DECISION OUTCOME</text>
-  <text class="label" x="428" y="612">Product &amp; Process Innovation</text>
+  <rect class="construct" x="72" y="186" width="182" height="86" rx="12"/>
+  <text class="label" x="98" y="219">Industry 4.0</text>
+  <text class="small" x="98" y="244">platform data</text>
+  <text class="small" x="98" y="264">automation signals</text>
 
-  <path class="line" d="M289 211 C330 220 345 268 386 300"/>
-  <path class="line" d="M289 454 C330 445 345 395 386 365"/>
-  <path class="line" d="M668 308 C710 268 719 222 752 211"/>
-  <path class="line" d="M668 361 C710 398 719 443 752 454"/>
-  <path class="line" d="M527 414 L527 548"/>
-  <path class="line" d="M885 277 C862 329 827 344 668 343"/>
-  <path class="line" d="M885 388 C862 344 827 334 668 334"/>
+  <rect class="construct" x="72" y="324" width="182" height="86" rx="12"/>
+  <text class="label" x="98" y="357">R&amp;D System</text>
+  <text class="small" x="98" y="382">product records</text>
+  <text class="small" x="98" y="402">process indicators</text>
+
+  <rect class="construct" x="72" y="462" width="182" height="86" rx="12"/>
+  <text class="label" x="98" y="495">Decision Issue</text>
+  <text class="small" x="98" y="520">ambiguous criteria</text>
+  <text class="small" x="98" y="540">priority conflict</text>
+
+  <rect class="construct" x="350" y="176" width="182" height="74" rx="12"/>
+  <text class="label" x="376" y="208">Core Capability</text>
+  <text class="small" x="376" y="232">knowledge assets</text>
+
+  <rect class="construct" x="350" y="296" width="182" height="74" rx="12"/>
+  <text class="label" x="376" y="328">Integration Level</text>
+  <text class="small" x="376" y="352">modular maturity</text>
+
+  <rect class="construct" x="350" y="416" width="182" height="74" rx="12"/>
+  <text class="label" x="376" y="448">Resource Allocation</text>
+  <text class="small" x="376" y="472">portfolio discipline</text>
+
+  <rect class="method" x="628" y="164" width="208" height="72" rx="12"/>
+  <text class="tag" x="658" y="193">STEP 1</text>
+  <text class="label" x="658" y="215">Decision Matrix</text>
+
+  <rect class="method" x="628" y="264" width="208" height="72" rx="12"/>
+  <text class="tag" x="658" y="293">STEP 2</text>
+  <text class="label" x="658" y="315">Criteria Weighting</text>
+
+  <rect class="method" x="628" y="364" width="208" height="72" rx="12"/>
+  <text class="tag" x="658" y="393">STEP 3</text>
+  <text class="label" x="658" y="415">Ideal Distance</text>
+
+  <rect class="method" x="628" y="464" width="208" height="72" rx="12"/>
+  <text class="tag" x="658" y="493">STEP 4</text>
+  <text class="label" x="658" y="515">Closeness Ranking</text>
+
+  <rect class="outcome" x="932" y="176" width="176" height="74" rx="12"/>
+  <text class="label" x="958" y="208">Product</text>
+  <text class="small" x="958" y="232">innovation choice</text>
+
+  <rect class="outcome" x="932" y="316" width="176" height="74" rx="12"/>
+  <text class="label" x="958" y="348">Process</text>
+  <text class="small" x="958" y="372">optimization path</text>
+
+  <rect class="outcome" x="932" y="456" width="176" height="74" rx="12"/>
+  <text class="label" x="958" y="488">Governance</text>
+  <text class="small" x="958" y="512">ranked priorities</text>
+
+  <rect class="note" x="192" y="628" width="796" height="54" rx="12"/>
+  <text class="label" x="226" y="660">Validation logic:</text>
+  <text class="small" x="366" y="660">enterprise data calibration, scenario comparison, and reported design-efficiency improvement.</text>
+
+  <path class="line" d="M254 229 L350 213"/>
+  <path class="line" d="M254 367 L350 333"/>
+  <path class="line" d="M254 505 L350 453"/>
+  <path class="line" d="M532 213 C574 214 588 198 628 200"/>
+  <path class="line" d="M532 333 C574 326 588 300 628 300"/>
+  <path class="line" d="M532 453 C574 438 588 400 628 400"/>
+  <path class="line" d="M732 236 L732 264"/>
+  <path class="line" d="M732 336 L732 364"/>
+  <path class="line" d="M732 436 L732 464"/>
+  <path class="line" d="M836 500 C880 500 892 493 932 493"/>
+  <path class="line" d="M836 400 C884 394 898 353 932 353"/>
+  <path class="line" d="M836 300 C884 294 898 213 932 213"/>
+  <path class="dash" d="M590 628 C600 585 638 552 690 536"/>
 </svg>
