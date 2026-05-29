@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+  <title id="title">TOPSIS decision intelligence framework for Industry 4.0 product and process design</title>
+  <desc id="desc">A research framework linking Industry 4.0 data, capability criteria, TOPSIS weighting, mediators, and product and process innovation decisions.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f6f73"/>
+    </marker>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbfb"/>
+      <stop offset="1" stop-color="#eef4f2"/>
+    </linearGradient>
+    <style>
+      .bg{fill:url(#bg)}
+      .panel{fill:#fff;stroke:#c8d8d7;stroke-width:2}
+      .hub{fill:#e5f1ef;stroke:#2f6f73;stroke-width:2.5}
+      .accent{fill:#f1efe7;stroke:#b08b3e;stroke-width:2}
+      .result{fill:#eef2f8;stroke:#4c6388;stroke-width:2}
+      .title{font:700 30px Inter,Arial,sans-serif;fill:#203233}
+      .subtitle{font:600 16px Inter,Arial,sans-serif;fill:#5d6e70}
+      .label{font:700 18px Inter,Arial,sans-serif;fill:#203233}
+      .small{font:500 14px Inter,Arial,sans-serif;fill:#506164}
+      .tiny{font:600 12px Inter,Arial,sans-serif;fill:#2f6f73;letter-spacing:.6px}
+      .line{fill:none;stroke:#2f6f73;stroke-width:2.5;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="680" rx="24"/>
+  <text class="title" x="52" y="64">TOPSIS System Analysis for Industry 4.0 Design</text>
+  <text class="subtitle" x="52" y="94">From ambiguous criteria to ranked product and process decisions</text>
+
+  <rect class="panel" x="54" y="145" width="235" height="132" rx="14"/>
+  <text class="tiny" x="82" y="181">INPUT CONTEXT</text>
+  <text class="label" x="82" y="212">Industry 4.0 Data</text>
+  <text class="small" x="82" y="240">cloud platform signals</text>
+  <text class="small" x="82" y="263">R&amp;D and production records</text>
+
+  <rect class="panel" x="54" y="388" width="235" height="132" rx="14"/>
+  <text class="tiny" x="82" y="424">CAPABILITY BASE</text>
+  <text class="label" x="82" y="455">Core Technologies</text>
+  <text class="small" x="82" y="483">knowledge-based capability</text>
+  <text class="small" x="82" y="506">automation readiness</text>
+
+  <rect class="hub" x="386" y="242" width="282" height="172" rx="18"/>
+  <text class="tiny" x="428" y="286">ANALYTICAL ENGINE</text>
+  <text class="label" x="428" y="322">TOPSIS Decision Model</text>
+  <text class="small" x="428" y="352">normalize criteria</text>
+  <text class="small" x="428" y="375">construct weights and ranks</text>
+  <text class="small" x="428" y="398">identify priority alternatives</text>
+
+  <rect class="accent" x="752" y="145" width="266" height="132" rx="14"/>
+  <text class="tiny" x="782" y="181">MEDIATOR</text>
+  <text class="label" x="782" y="212">Integration Level</text>
+  <text class="small" x="782" y="240">modular system design</text>
+  <text class="small" x="782" y="263">product and platform coupling</text>
+
+  <rect class="accent" x="752" y="388" width="266" height="132" rx="14"/>
+  <text class="tiny" x="782" y="424">MEDIATOR</text>
+  <text class="label" x="782" y="455">Resource Allocation</text>
+  <text class="small" x="782" y="483">portfolio prioritization</text>
+  <text class="small" x="782" y="506">process investment choices</text>
+
+  <rect class="result" x="386" y="548" width="282" height="82" rx="14"/>
+  <text class="tiny" x="428" y="581">DECISION OUTCOME</text>
+  <text class="label" x="428" y="612">Product &amp; Process Innovation</text>
+
+  <path class="line" d="M289 211 C330 220 345 268 386 300"/>
+  <path class="line" d="M289 454 C330 445 345 395 386 365"/>
+  <path class="line" d="M668 308 C710 268 719 222 752 211"/>
+  <path class="line" d="M668 361 C710 398 719 443 752 454"/>
+  <path class="line" d="M527 414 L527 548"/>
+  <path class="line" d="M885 277 C862 329 827 344 668 343"/>
+  <path class="line" d="M885 388 C862 344 827 334 668 334"/>
+</svg>

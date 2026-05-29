@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+  <title id="title">Microservice quality assessment framework with data modeling, MLP prediction, and Kaplan-Meier reliability simulation</title>
+  <desc id="desc">A framework showing enterprise requirements, microservice architecture, data modeling, simulation, reliability prediction, and service quality improvement.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#496889"/>
+    </marker>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#edf4f7"/>
+    </linearGradient>
+    <style>
+      .bg{fill:url(#bg)}
+      .panel{fill:#fff;stroke:#ccd8e2;stroke-width:2}
+      .engine{fill:#e9f0f7;stroke:#496889;stroke-width:2.5}
+      .service{fill:#eef5ef;stroke:#4f7d5a;stroke-width:2}
+      .decision{fill:#f4efe4;stroke:#aa8238;stroke-width:2}
+      .title{font:700 30px Inter,Arial,sans-serif;fill:#203039}
+      .subtitle{font:600 16px Inter,Arial,sans-serif;fill:#61707a}
+      .label{font:700 18px Inter,Arial,sans-serif;fill:#203039}
+      .small{font:500 14px Inter,Arial,sans-serif;fill:#52616b}
+      .tiny{font:600 12px Inter,Arial,sans-serif;fill:#496889;letter-spacing:.6px}
+      .line{fill:none;stroke:#496889;stroke-width:2.5;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="680" rx="24"/>
+  <text class="title" x="52" y="64">Industry 4.0 Microservice Quality Assessment</text>
+  <text class="subtitle" x="52" y="94">Service innovation through data modeling, simulation, and reliability prediction</text>
+
+  <rect class="panel" x="54" y="150" width="230" height="128" rx="14"/>
+  <text class="tiny" x="82" y="186">ENTERPRISE CONTEXT</text>
+  <text class="label" x="82" y="217">Customer Needs</text>
+  <text class="small" x="82" y="245">third-party requirements</text>
+  <text class="small" x="82" y="268">integration constraints</text>
+
+  <rect class="service" x="54" y="395" width="230" height="128" rx="14"/>
+  <text class="tiny" x="82" y="431">ARCHITECTURE</text>
+  <text class="label" x="82" y="462">Microservices</text>
+  <text class="small" x="82" y="490">API-based modularization</text>
+  <text class="small" x="82" y="513">scalable service bundles</text>
+
+  <rect class="engine" x="382" y="146" width="288" height="132" rx="16"/>
+  <text class="tiny" x="424" y="182">DATA MODELING</text>
+  <text class="label" x="424" y="213">Production Dataset</text>
+  <text class="small" x="424" y="241">feature extraction</text>
+  <text class="small" x="424" y="264">service quality indicators</text>
+
+  <rect class="engine" x="382" y="395" width="288" height="132" rx="16"/>
+  <text class="tiny" x="424" y="431">COMPUTATIONAL LEARNING</text>
+  <text class="label" x="424" y="462">MLP Reliability Model</text>
+  <text class="small" x="424" y="490">failure and quality prediction</text>
+  <text class="small" x="424" y="513">low-loss scenario evaluation</text>
+
+  <rect class="panel" x="760" y="146" width="284" height="132" rx="16"/>
+  <text class="tiny" x="802" y="182">SIMULATION</text>
+  <text class="label" x="802" y="213">Kaplan-Meier Estimation</text>
+  <text class="small" x="802" y="241">reliability curve assessment</text>
+  <text class="small" x="802" y="264">service survival comparison</text>
+
+  <rect class="decision" x="760" y="395" width="284" height="132" rx="16"/>
+  <text class="tiny" x="802" y="431">DECISION OUTCOME</text>
+  <text class="label" x="802" y="462">Service Innovation</text>
+  <text class="small" x="802" y="490">quality improvement pathway</text>
+  <text class="small" x="802" y="513">value co-creation design</text>
+
+  <rect class="decision" x="382" y="565" width="288" height="70" rx="14"/>
+  <text class="tiny" x="424" y="594">VALIDATED IMPACT</text>
+  <text class="label" x="424" y="622">Decision support for scalable systems</text>
+
+  <path class="line" d="M284 214 L382 214"/>
+  <path class="line" d="M284 459 L382 459"/>
+  <path class="line" d="M526 278 L526 395"/>
+  <path class="line" d="M670 214 L760 214"/>
+  <path class="line" d="M670 459 L760 459"/>
+  <path class="line" d="M902 278 L902 395"/>
+  <path class="line" d="M760 473 C720 560 690 599 670 599"/>
+  <path class="line" d="M526 527 L526 565"/>
+</svg>
