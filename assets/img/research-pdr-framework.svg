@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Primitive Dependency Recovery Framework</title>
+  <desc id="desc">Bauhaus-style research framework for service-dependency recovery, certificate lifting, and exact recovery algorithms.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f4ea}
+      .ink{fill:#111}
+      .red{fill:#d63a2f}
+      .yellow{fill:#f2c230}
+      .blue{fill:#1f5da8}
+      .cream{fill:#fffaf0}
+      .line{stroke:#111;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter}
+      .thin{stroke:#111;stroke-width:2.5;stroke-linecap:square}
+      .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 8;fill:none}
+      .title{font:800 40px Inter,Arial,sans-serif;letter-spacing:.2px;fill:#111}
+      .subtitle{font:500 18px Inter,Arial,sans-serif;fill:#333}
+      .kicker{font:800 13px Inter,Arial,sans-serif;letter-spacing:2px;fill:#111}
+      .label{font:800 20px Inter,Arial,sans-serif;fill:#111}
+      .small{font:600 14px Inter,Arial,sans-serif;fill:#222}
+      .micro{font:800 11px Inter,Arial,sans-serif;letter-spacing:1.3px;fill:#111}
+      .white{fill:#fff}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#111"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1280" height="760"/>
+  <rect class="ink" x="0" y="0" width="1280" height="16"/>
+  <rect class="blue" x="0" y="16" width="220" height="18"/>
+  <rect class="yellow" x="220" y="16" width="250" height="18"/>
+  <rect class="red" x="470" y="16" width="180" height="18"/>
+
+  <circle class="red" cx="88" cy="92" r="36"/>
+  <rect class="yellow line" x="1048" y="58" width="88" height="88"/>
+  <circle class="blue" cx="1168" cy="102" r="44"/>
+  <line class="line" x1="54" y1="150" x2="1218" y2="150"/>
+
+  <text class="title" x="132" y="84">Primitive Dependency Recovery</text>
+  <text class="subtitle" x="132" y="116">Complementarity, certificate loss, and fixed-parameter recovery algorithms</text>
+
+  <text class="kicker" x="70" y="205">SERVICE GRAPH</text>
+  <text class="kicker" x="370" y="205">PRIMITIVE ACTIONS</text>
+  <text class="kicker" x="670" y="205">CERTIFICATE LIFT</text>
+  <text class="kicker" x="970" y="205">RECOVERY DECISION</text>
+
+  <rect class="cream line" x="60" y="225" width="240" height="350"/>
+  <circle class="blue" cx="112" cy="284" r="26"/>
+  <text class="label" x="150" y="291">Source</text>
+  <circle class="yellow line" cx="118" cy="390" r="24"/>
+  <circle class="yellow line" cx="206" cy="330" r="24"/>
+  <circle class="yellow line" cx="215" cy="462" r="24"/>
+  <line class="thin" x1="138" y1="294" x2="184" y2="320" marker-end="url(#arrow)"/>
+  <line class="thin" x1="135" y1="400" x2="194" y2="450" marker-end="url(#arrow)"/>
+  <line class="dash" x1="132" y1="374" x2="194" y2="344"/>
+  <text class="small" x="86" y="526">surviving arcs</text>
+  <text class="small" x="86" y="550">critical terminals</text>
+
+  <path class="line" d="M318 400 H352" marker-end="url(#arrow)"/>
+
+  <rect class="cream line" x="365" y="225" width="240" height="350"/>
+  <rect class="red" x="397" y="262" width="74" height="74"/>
+  <rect class="yellow line" x="494" y="262" width="74" height="74"/>
+  <circle class="blue" cx="435" cy="420" r="42"/>
+  <circle class="cream line" cx="532" cy="420" r="42"/>
+  <text class="label" x="395" y="510">Costly</text>
+  <text class="label" x="395" y="537">recovery</text>
+  <text class="small" x="500" y="510">chain</text>
+  <text class="small" x="500" y="532">effects</text>
+
+  <path class="line" d="M623 400 H657" marker-end="url(#arrow)"/>
+
+  <rect class="cream line" x="670" y="225" width="240" height="350"/>
+  <rect class="blue" x="706" y="260" width="76" height="76"/>
+  <rect class="red" x="798" y="300" width="76" height="76"/>
+  <rect class="yellow line" x="748" y="398" width="92" height="92"/>
+  <text class="label" x="704" y="520">Certificates</text>
+  <text class="small" x="704" y="546">coverage units</text>
+  <line class="thin" x1="714" y1="360" x2="868" y2="448"/>
+  <line class="thin" x1="792" y1="280" x2="834" y2="406"/>
+
+  <path class="line" d="M928 400 H962" marker-end="url(#arrow)"/>
+
+  <rect class="cream line" x="975" y="225" width="240" height="350"/>
+  <circle class="yellow line" cx="1038" cy="308" r="42"/>
+  <text class="label" x="1094" y="302">FPT exact</text>
+  <text class="small" x="1094" y="326">small terminal set</text>
+  <rect class="blue" x="1002" y="390" width="76" height="76"/>
+  <text class="label" x="1094" y="420">Greedy lift</text>
+  <text class="small" x="1094" y="444">bounded loss</text>
+  <rect class="red" x="1002" y="500" width="76" height="38"/>
+  <text class="small" x="1094" y="526">recovery plan</text>
+
+  <rect class="ink" x="70" y="625" width="1140" height="56"/>
+  <text class="micro white" x="96" y="648">RESEARCH FIELD</text>
+  <text class="small white" x="96" y="670">Network design / certificate lifting / FPT recovery</text>
+  <rect class="red" x="602" y="625" width="10" height="56"/>
+  <text class="micro white" x="636" y="648">APPLICATION</text>
+  <text class="small white" x="636" y="670">Cloud restoration / service repair / resilience planning</text>
+</svg>

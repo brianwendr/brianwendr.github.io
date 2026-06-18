@@ -36,91 +36,58 @@ nav_order: 4
   </div>
 </section>
 
-<section class="research-focus">
-  <p class="research-eyebrow">Current Research Paper / JCO</p>
-  <h2>Primitive Dependency Recovery: Complementarity, Certificate-Loss Decomposition, and Fixed-Parameter Exact Algorithms</h2>
-  <p>
-    This paper studies post-incident service-dependency restoration as a compact directed network-design
-    problem. Given surviving zero-cost arcs and costly recovery arcs, the model selects a minimum-cost
-    recovery set that restores reachability from a source service to all critical terminals.
-  </p>
-  <div class="research-focus-grid">
-    <div>
-      <h3>Research Field</h3>
-      <p>
-        Combinatorial optimization, directed network design, service-dependency recovery, certificate lifting,
-        fixed-parameter algorithms, and non-submodular coverage analysis.
-      </p>
-    </div>
-    <div>
-      <h3>Methodological Core</h3>
-      <p>
-        The study identifies chain complementarity in primitive recovery actions, separates modelling loss
-        from greedy certificate-selection loss, and develops exact algorithms parameterized by the number of
-        critical terminals.
-      </p>
-    </div>
-    <div>
-      <h3>Application Context</h3>
-      <p>
-        The framework supports cloud-native service restoration, microservice dependency repair, fallback
-        path selection, and recovery planning after operational incidents in distributed enterprise systems.
-      </p>
-    </div>
-  </div>
-</section>
-
 ## Research Frameworks
 
 <div class="research-paper">
   <div class="research-paper-copy">
-    <p class="research-eyebrow">Decision Science / Industry 4.0</p>
-    <h3>Product and Process Design Through TOPSIS System Analysis Under Industry 4.0 Platform Application</h3>
+    <p class="research-eyebrow">Combinatorial Optimization / Service Recovery</p>
+    <h3>Primitive Dependency Recovery: Complementarity, Certificate-Loss Decomposition, and Fixed-Parameter Exact Algorithms</h3>
     <p>
-      This study frames Industry 4.0 product and process design as a multi-criteria decision problem.
-      It uses TOPSIS to normalize ambiguous criteria, construct weights, rank alternatives, and help
-      managers align core capabilities, integration level, and resource allocation with innovation outcomes.
+      This paper studies post-incident service-dependency restoration as a directed network-design problem.
+      Given surviving zero-cost arcs and costly recovery arcs, the model selects a minimum-cost recovery set
+      that restores reachability from a source service to all critical terminals.
     </p>
     <p>
-      The framework below integrates the paper's research logic with a decision-intelligence workflow:
-      empirical Industry 4.0 signals are converted into decision constructs, evaluated through the
-      TOPSIS analytical core, and translated into ranked managerial actions for product and process strategy.
+      The research field connects combinatorial optimization, directed network design, certificate lifting,
+      fixed-parameter algorithms, and non-submodular coverage analysis. Its application context is cloud-native
+      service restoration, microservice dependency repair, fallback-path selection, and recovery planning after
+      operational incidents in distributed enterprise systems.
     </p>
     <ul>
-      <li>Focus: product innovation, process design, core capability, and automation platform readiness.</li>
-      <li>Method: TOPSIS-based decision support with weighting, ranking, and scenario comparison.</li>
-      <li>Managerial use: clearer prioritization for R&amp;D, modular design, and Industry 4.0 investment choices.</li>
+      <li>Focus: primitive recovery actions, critical terminal reachability, and service-dependency repair.</li>
+      <li>Method: certificate-loss decomposition, complementarity analysis, FPT exact recovery, and condensation reduction.</li>
+      <li>Managerial use: auditable restoration planning for service outages, dependency failures, and operational resilience.</li>
     </ul>
   </div>
   <figure class="research-figure">
-    <img src="{{ '/assets/img/research-topsis-framework.svg' | relative_url }}" alt="TOPSIS decision intelligence framework for Industry 4.0 product and process design">
-    <figcaption>Framework summary: Industry 4.0 data and core technology criteria are transformed through TOPSIS into ranked innovation decisions.</figcaption>
+    <img src="{{ '/assets/img/research-pdr-framework.svg' | relative_url }}" alt="Bauhaus-style primitive dependency recovery research framework">
+    <figcaption>Framework summary: surviving service links and costly recovery actions are lifted into certificates, diagnosed for complementarity and loss, and converted into exact or approximate recovery decisions.</figcaption>
   </figure>
 </div>
 
 <div class="research-paper">
   <div class="research-paper-copy">
-    <p class="research-eyebrow">Simulation / Computational Learning</p>
-    <h3>Service Innovation and Quality Assessment of Industry 4.0 Microservice through Data Modeling and System Simulation Evaluation Approaches</h3>
+    <p class="research-eyebrow">Decision Science / Simulation / Industry 4.0</p>
+    <h3>Industry 4.0 Decision Intelligence: TOPSIS Design Analytics and Microservice Quality Assessment</h3>
     <p>
-      This paper studies microservice quality assessment under Industry 4.0 infrastructure. It combines
-      service-dominant logic, dynamic process flow, MLP prediction, and Kaplan-Meier reliability estimation
-      to evaluate service quality, support scalable architecture choices, and guide value co-creation.
+      This integrated framework combines two Industry 4.0 studies: product and process design through
+      TOPSIS system analysis, and service innovation and microservice quality assessment through data
+      modeling, MLP prediction, and Kaplan-Meier reliability simulation.
     </p>
     <p>
-      The framework below merges the paper narrative with the visual research architecture: service ecosystem
-      requirements are mapped into microservice architecture and production data, then evaluated through
-      computational learning and reliability simulation to guide service innovation decisions.
+      Together, the two papers show how enterprise signals can be transformed into decision constructs,
+      evaluated through MCDA and computational learning, and translated into platform investment, service
+      architecture, reliability, and innovation recommendations.
     </p>
     <ul>
-      <li>Focus: microservice architecture, third-party requirements, reliability, and service innovation.</li>
-      <li>Method: production-data modeling, MLP reliability prediction, and Kaplan-Meier simulation.</li>
-      <li>Managerial use: decision support for scalable service systems and quality improvement pathways.</li>
+      <li>Focus: product innovation, process design, microservice architecture, reliability, and service quality.</li>
+      <li>Method: TOPSIS ranking, data modeling, MLP reliability prediction, and Kaplan-Meier simulation.</li>
+      <li>Managerial use: decision support for Industry 4.0 investment, architecture selection, and quality improvement.</li>
     </ul>
   </div>
   <figure class="research-figure">
-    <img src="{{ '/assets/img/research-microservice-framework.svg' | relative_url }}" alt="Microservice quality assessment framework with data modeling, MLP prediction, and Kaplan-Meier reliability simulation">
-    <figcaption>Framework summary: enterprise requirements and microservice architecture are evaluated through data modeling, learning, and simulation.</figcaption>
+    <img src="{{ '/assets/img/research-industry40-framework.svg' | relative_url }}" alt="Bauhaus-style Industry 4.0 decision intelligence research framework">
+    <figcaption>Framework summary: Industry 4.0 product, process, and service signals are integrated through TOPSIS, learning, and simulation into decision-ready innovation and quality recommendations.</figcaption>
   </figure>
 </div>
 
