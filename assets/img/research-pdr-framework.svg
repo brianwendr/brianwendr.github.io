@@ -1,23 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
   <title id="title">Primitive Dependency Recovery Framework</title>
-  <desc id="desc">Bauhaus-style research framework for service-dependency recovery, certificate lifting, and exact recovery algorithms.</desc>
+  <desc id="desc">A clean Bauhaus-style research framework for primitive dependency recovery and certificate-guided service restoration.</desc>
   <defs>
     <style>
-      .bg{fill:#f7f4ea}
-      .ink{fill:#111}
-      .red{fill:#d63a2f}
-      .yellow{fill:#f2c230}
-      .blue{fill:#1f5da8}
-      .cream{fill:#fffaf0}
-      .line{stroke:#111;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter}
-      .thin{stroke:#111;stroke-width:2.5;stroke-linecap:square}
-      .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 8;fill:none}
-      .title{font:800 40px Inter,Arial,sans-serif;letter-spacing:.2px;fill:#111}
+      .bg{fill:#f7f3e8}
+      .paper{fill:#fffaf0}
+      .black{fill:#111}
+      .red{fill:#d93a31}
+      .blue{fill:#2465ad}
+      .yellow{fill:#f3c631}
+      .stroke{stroke:#111;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter}
+      .thin{stroke:#111;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:miter}
+      .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 9;fill:none}
+      .title{font:800 42px Inter,Arial,sans-serif;fill:#111}
       .subtitle{font:500 18px Inter,Arial,sans-serif;fill:#333}
-      .kicker{font:800 13px Inter,Arial,sans-serif;letter-spacing:2px;fill:#111}
-      .label{font:800 20px Inter,Arial,sans-serif;fill:#111}
-      .small{font:600 14px Inter,Arial,sans-serif;fill:#222}
-      .micro{font:800 11px Inter,Arial,sans-serif;letter-spacing:1.3px;fill:#111}
+      .section{font:800 13px Inter,Arial,sans-serif;letter-spacing:2px;fill:#111}
+      .label{font:800 22px Inter,Arial,sans-serif;fill:#111}
+      .body{font:600 15px Inter,Arial,sans-serif;fill:#222}
+      .small{font:700 13px Inter,Arial,sans-serif;fill:#222}
+      .micro{font:800 11px Inter,Arial,sans-serif;letter-spacing:1.2px;fill:#111}
       .white{fill:#fff}
     </style>
     <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
@@ -25,79 +26,68 @@
     </marker>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1280" height="760"/>
-  <rect class="ink" x="0" y="0" width="1280" height="16"/>
+  <rect class="bg" width="1280" height="760"/>
+  <rect class="black" x="0" y="0" width="1280" height="16"/>
   <rect class="blue" x="0" y="16" width="220" height="18"/>
-  <rect class="yellow" x="220" y="16" width="250" height="18"/>
-  <rect class="red" x="470" y="16" width="180" height="18"/>
+  <rect class="yellow" x="220" y="16" width="260" height="18"/>
+  <rect class="red" x="480" y="16" width="180" height="18"/>
 
-  <circle class="red" cx="88" cy="92" r="36"/>
-  <rect class="yellow line" x="1048" y="58" width="88" height="88"/>
-  <circle class="blue" cx="1168" cy="102" r="44"/>
-  <line class="line" x1="54" y1="150" x2="1218" y2="150"/>
+  <circle class="red" cx="92" cy="94" r="36"/>
+  <text class="title" x="152" y="86">Primitive Dependency Recovery</text>
+  <text class="subtitle" x="152" y="118">Certificate-guided restoration for critical service dependencies</text>
+  <rect class="yellow stroke" x="1052" y="60" width="84" height="84"/>
+  <circle class="blue" cx="1170" cy="104" r="43"/>
+  <line class="stroke" x1="60" y1="152" x2="1220" y2="152"/>
 
-  <text class="title" x="132" y="84">Primitive Dependency Recovery</text>
-  <text class="subtitle" x="132" y="116">Complementarity, certificate loss, and fixed-parameter recovery algorithms</text>
+  <text class="section" x="94" y="210">PROBLEM STRUCTURE</text>
+  <text class="section" x="496" y="210">CERTIFICATE LIFT</text>
+  <text class="section" x="910" y="210">RECOVERY DECISION</text>
 
-  <text class="kicker" x="70" y="205">SERVICE GRAPH</text>
-  <text class="kicker" x="370" y="205">PRIMITIVE ACTIONS</text>
-  <text class="kicker" x="670" y="205">CERTIFICATE LIFT</text>
-  <text class="kicker" x="970" y="205">RECOVERY DECISION</text>
+  <rect class="paper stroke" x="76" y="234" width="310" height="342"/>
+  <circle class="blue" cx="156" cy="306" r="34"/>
+  <circle class="yellow stroke" cx="274" cy="370" r="30"/>
+  <circle class="yellow stroke" cx="170" cy="430" r="26"/>
+  <circle class="yellow stroke" cx="286" cy="482" r="26"/>
+  <line class="thin" x1="184" y1="324" x2="247" y2="354" marker-end="url(#arrow)"/>
+  <path class="dash" d="M192 414 L250 392"/>
+  <line class="thin" x1="193" y1="442" x2="260" y2="472" marker-end="url(#arrow)"/>
+  <text class="label" x="102" y="536">Service graph</text>
+  <text class="body" x="102" y="562">surviving links + terminals</text>
+  <rect class="red" x="306" y="284" width="46" height="120"/>
+  <text class="micro" x="312" y="430">COSTLY</text>
+  <text class="micro" x="312" y="448">ARCS</text>
 
-  <rect class="cream line" x="60" y="225" width="240" height="350"/>
-  <circle class="blue" cx="112" cy="284" r="26"/>
-  <text class="label" x="150" y="291">Source</text>
-  <circle class="yellow line" cx="118" cy="390" r="24"/>
-  <circle class="yellow line" cx="206" cy="330" r="24"/>
-  <circle class="yellow line" cx="215" cy="462" r="24"/>
-  <line class="thin" x1="138" y1="294" x2="184" y2="320" marker-end="url(#arrow)"/>
-  <line class="thin" x1="135" y1="400" x2="194" y2="450" marker-end="url(#arrow)"/>
-  <line class="dash" x1="132" y1="374" x2="194" y2="344"/>
-  <text class="small" x="86" y="526">surviving arcs</text>
-  <text class="small" x="86" y="550">critical terminals</text>
+  <path class="stroke" d="M410 405 H470" marker-end="url(#arrow)"/>
 
-  <path class="line" d="M318 400 H352" marker-end="url(#arrow)"/>
+  <rect class="paper stroke" x="490" y="234" width="300" height="342"/>
+  <rect class="yellow stroke" x="560" y="282" width="160" height="174"/>
+  <rect class="black" x="560" y="282" width="160" height="20"/>
+  <rect class="blue" x="526" y="328" width="58" height="58"/>
+  <circle class="red" cx="724" cy="354" r="31"/>
+  <circle class="paper stroke" cx="640" cy="374" r="32"/>
+  <rect class="black" x="600" y="420" width="82" height="8"/>
+  <rect class="black" x="600" y="438" width="58" height="8"/>
+  <rect class="paper stroke" x="548" y="452" width="184" height="36"/>
+  <text class="micro" x="589" y="475">COVERAGE UNIT</text>
+  <text class="label" x="530" y="532">Recovery certificate</text>
+  <text class="body" x="530" y="558">bundled evidence + model loss</text>
 
-  <rect class="cream line" x="365" y="225" width="240" height="350"/>
-  <rect class="red" x="398" y="262" width="64" height="64"/>
-  <rect class="yellow line" x="500" y="262" width="64" height="64"/>
-  <line class="thin" x1="462" y1="294" x2="492" y2="294" marker-end="url(#arrow)"/>
-  <circle class="blue" cx="430" cy="410" r="34"/>
-  <circle class="cream line" cx="532" cy="410" r="34"/>
-  <line class="thin" x1="464" y1="410" x2="490" y2="410" marker-end="url(#arrow)"/>
-  <text class="label" x="394" y="500">Primitive</text>
-  <text class="label" x="394" y="526">recovery arcs</text>
-  <text class="small" x="394" y="552">costly links with prerequisites</text>
+  <path class="stroke" d="M814 405 H874" marker-end="url(#arrow)"/>
 
-  <path class="line" d="M623 400 H657" marker-end="url(#arrow)"/>
+  <rect class="paper stroke" x="894" y="234" width="310" height="342"/>
+  <circle class="yellow stroke" cx="970" cy="312" r="43"/>
+  <text class="label" x="1040" y="306">FPT exact</text>
+  <text class="body" x="1040" y="332">small terminal set</text>
+  <rect class="blue" x="930" y="402" width="86" height="86"/>
+  <text class="label" x="1040" y="432">Greedy lift</text>
+  <text class="body" x="1040" y="458">bounded loss</text>
+  <rect class="red" x="930" y="520" width="86" height="34"/>
+  <text class="body" x="1040" y="542">recovery plan</text>
 
-  <rect class="cream line" x="670" y="225" width="240" height="350"/>
-  <rect class="blue" x="708" y="260" width="66" height="66"/>
-  <rect class="red" x="806" y="260" width="66" height="66"/>
-  <line class="thin" x1="774" y1="293" x2="798" y2="293" marker-end="url(#arrow)"/>
-  <rect class="yellow line" x="737" y="382" width="104" height="72"/>
-  <line class="thin" x1="760" y1="335" x2="778" y2="374" marker-end="url(#arrow)"/>
-  <line class="thin" x1="830" y1="335" x2="804" y2="374" marker-end="url(#arrow)"/>
-  <text class="label" x="704" y="500">Recovery</text>
-  <text class="label" x="704" y="526">certificates</text>
-  <text class="small" x="704" y="552">lifted coverage units</text>
-
-  <path class="line" d="M928 400 H962" marker-end="url(#arrow)"/>
-
-  <rect class="cream line" x="975" y="225" width="240" height="350"/>
-  <circle class="yellow line" cx="1038" cy="308" r="42"/>
-  <text class="label" x="1094" y="302">FPT exact</text>
-  <text class="small" x="1094" y="326">small terminal set</text>
-  <rect class="blue" x="1002" y="390" width="76" height="76"/>
-  <text class="label" x="1094" y="420">Greedy lift</text>
-  <text class="small" x="1094" y="444">bounded loss</text>
-  <rect class="red" x="1002" y="500" width="76" height="38"/>
-  <text class="small" x="1094" y="526">recovery plan</text>
-
-  <rect class="ink" x="70" y="625" width="1140" height="56"/>
-  <text class="micro white" x="96" y="648">RESEARCH FIELD</text>
-  <text class="small white" x="96" y="670">Network design / certificate lifting / FPT recovery</text>
-  <rect class="red" x="602" y="625" width="10" height="56"/>
-  <text class="micro white" x="636" y="648">APPLICATION</text>
-  <text class="small white" x="636" y="670">Cloud restoration / service repair / resilience planning</text>
+  <rect class="black" x="76" y="628" width="1128" height="56"/>
+  <text class="micro white" x="104" y="651">RESEARCH FIELD</text>
+  <text class="small white" x="104" y="672">Directed network design / certificate lifting / fixed-parameter recovery</text>
+  <rect class="red" x="658" y="628" width="10" height="56"/>
+  <text class="micro white" x="692" y="651">APPLICATION</text>
+  <text class="small white" x="692" y="672">Cloud restoration / service repair / operational resilience planning</text>
 </svg>
