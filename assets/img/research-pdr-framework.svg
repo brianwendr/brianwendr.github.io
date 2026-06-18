@@ -59,25 +59,28 @@
   <path class="line" d="M318 400 H352" marker-end="url(#arrow)"/>
 
   <rect class="cream line" x="365" y="225" width="240" height="350"/>
-  <rect class="red" x="397" y="262" width="74" height="74"/>
-  <rect class="yellow line" x="494" y="262" width="74" height="74"/>
-  <circle class="blue" cx="435" cy="420" r="42"/>
-  <circle class="cream line" cx="532" cy="420" r="42"/>
-  <text class="label" x="395" y="510">Costly</text>
-  <text class="label" x="395" y="537">recovery</text>
-  <text class="small" x="500" y="510">chain</text>
-  <text class="small" x="500" y="532">effects</text>
+  <rect class="red" x="398" y="262" width="64" height="64"/>
+  <rect class="yellow line" x="500" y="262" width="64" height="64"/>
+  <line class="thin" x1="462" y1="294" x2="492" y2="294" marker-end="url(#arrow)"/>
+  <circle class="blue" cx="430" cy="410" r="34"/>
+  <circle class="cream line" cx="532" cy="410" r="34"/>
+  <line class="thin" x1="464" y1="410" x2="490" y2="410" marker-end="url(#arrow)"/>
+  <text class="label" x="394" y="500">Primitive</text>
+  <text class="label" x="394" y="526">recovery arcs</text>
+  <text class="small" x="394" y="552">costly links with prerequisites</text>
 
   <path class="line" d="M623 400 H657" marker-end="url(#arrow)"/>
 
   <rect class="cream line" x="670" y="225" width="240" height="350"/>
-  <rect class="blue" x="706" y="260" width="76" height="76"/>
-  <rect class="red" x="798" y="300" width="76" height="76"/>
-  <rect class="yellow line" x="748" y="398" width="92" height="92"/>
-  <text class="label" x="704" y="520">Certificates</text>
-  <text class="small" x="704" y="546">coverage units</text>
-  <line class="thin" x1="714" y1="360" x2="868" y2="448"/>
-  <line class="thin" x1="792" y1="280" x2="834" y2="406"/>
+  <rect class="blue" x="708" y="260" width="66" height="66"/>
+  <rect class="red" x="806" y="260" width="66" height="66"/>
+  <line class="thin" x1="774" y1="293" x2="798" y2="293" marker-end="url(#arrow)"/>
+  <rect class="yellow line" x="737" y="382" width="104" height="72"/>
+  <line class="thin" x1="760" y1="335" x2="778" y2="374" marker-end="url(#arrow)"/>
+  <line class="thin" x1="830" y1="335" x2="804" y2="374" marker-end="url(#arrow)"/>
+  <text class="label" x="704" y="500">Recovery</text>
+  <text class="label" x="704" y="526">certificates</text>
+  <text class="small" x="704" y="552">lifted coverage units</text>
 
   <path class="line" d="M928 400 H962" marker-end="url(#arrow)"/>
 
