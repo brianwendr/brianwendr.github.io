@@ -12,13 +12,13 @@
       .stroke{stroke:#111;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter}
       .thin{stroke:#111;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:miter}
       .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 9;fill:none}
-      .title{font:800 42px Inter,Arial,sans-serif;fill:#111}
-      .subtitle{font:500 18px Inter,Arial,sans-serif;fill:#333}
-      .section{font:800 13px Inter,Arial,sans-serif;letter-spacing:2px;fill:#111}
-      .label{font:800 22px Inter,Arial,sans-serif;fill:#111}
-      .body{font:600 15px Inter,Arial,sans-serif;fill:#222}
-      .small{font:700 13px Inter,Arial,sans-serif;fill:#222}
-      .micro{font:800 11px Inter,Arial,sans-serif;letter-spacing:1.2px;fill:#111}
+      .title{font:800 42px "Times New Roman",Times,serif;fill:#111}
+      .subtitle{font:500 18px "Times New Roman",Times,serif;fill:#333}
+      .section{font:800 13px "Times New Roman",Times,serif;letter-spacing:2px;fill:#111}
+      .label{font:800 22px "Times New Roman",Times,serif;fill:#111}
+      .body{font:600 15px "Times New Roman",Times,serif;fill:#222}
+      .small{font:700 13px "Times New Roman",Times,serif;fill:#222}
+      .micro{font:800 11px "Times New Roman",Times,serif;letter-spacing:1.2px;fill:#111}
       .white{fill:#fff}
     </style>
     <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
@@ -34,14 +34,14 @@
 
   <circle class="red" cx="92" cy="94" r="36"/>
   <text class="title" x="152" y="86">Primitive Dependency Recovery</text>
-  <text class="subtitle" x="152" y="118">Certificate-guided restoration for critical service dependencies</text>
+  <text class="subtitle" x="152" y="118">Certificate-Guided Restoration For Critical Service Dependencies</text>
   <rect class="yellow stroke" x="1052" y="60" width="84" height="84"/>
   <circle class="blue" cx="1170" cy="104" r="43"/>
   <line class="stroke" x1="60" y1="152" x2="1220" y2="152"/>
 
-  <text class="section" x="94" y="210">PROBLEM STRUCTURE</text>
-  <text class="section" x="496" y="210">CERTIFICATE LIFT</text>
-  <text class="section" x="910" y="210">RECOVERY DECISION</text>
+  <text class="section" x="94" y="210">Problem Structure</text>
+  <text class="section" x="496" y="210">Certificate Lift</text>
+  <text class="section" x="910" y="210">Recovery Decision</text>
 
   <rect class="paper stroke" x="76" y="234" width="310" height="342"/>
   <circle class="blue" cx="156" cy="306" r="34"/>
@@ -51,11 +51,11 @@
   <line class="thin" x1="184" y1="324" x2="247" y2="354" marker-end="url(#arrow)"/>
   <path class="dash" d="M192 414 L250 392"/>
   <line class="thin" x1="193" y1="442" x2="260" y2="472" marker-end="url(#arrow)"/>
-  <text class="label" x="102" y="536">Service graph</text>
-  <text class="body" x="102" y="562">surviving links + terminals</text>
+  <text class="label" x="102" y="536">Service Graph</text>
+  <text class="body" x="102" y="562">Surviving Links + Terminals</text>
   <rect class="red" x="306" y="284" width="46" height="120"/>
-  <text class="micro" x="312" y="430">COSTLY</text>
-  <text class="micro" x="312" y="448">ARCS</text>
+  <text class="micro" x="312" y="430">Costly</text>
+  <text class="micro" x="312" y="448">Arcs</text>
 
   <path class="stroke" d="M410 405 H470" marker-end="url(#arrow)"/>
 
@@ -68,26 +68,26 @@
   <rect class="black" x="600" y="420" width="82" height="8"/>
   <rect class="black" x="600" y="438" width="58" height="8"/>
   <rect class="paper stroke" x="548" y="452" width="184" height="36"/>
-  <text class="micro" x="589" y="475">COVERAGE UNIT</text>
-  <text class="label" x="530" y="532">Recovery certificate</text>
-  <text class="body" x="530" y="558">bundled evidence + model loss</text>
+  <text class="micro" x="589" y="475">Coverage Unit</text>
+  <text class="label" x="530" y="532">Recovery Certificate</text>
+  <text class="body" x="530" y="558">Bundled Evidence + Model Loss</text>
 
   <path class="stroke" d="M814 405 H874" marker-end="url(#arrow)"/>
 
   <rect class="paper stroke" x="894" y="234" width="310" height="342"/>
   <circle class="yellow stroke" cx="970" cy="312" r="43"/>
-  <text class="label" x="1040" y="306">FPT exact</text>
-  <text class="body" x="1040" y="332">small terminal set</text>
+  <text class="label" x="1040" y="306">FPT Exact</text>
+  <text class="body" x="1040" y="332">Small Terminal Set</text>
   <rect class="blue" x="930" y="402" width="86" height="86"/>
-  <text class="label" x="1040" y="432">Greedy lift</text>
-  <text class="body" x="1040" y="458">bounded loss</text>
+  <text class="label" x="1040" y="432">Greedy Lift</text>
+  <text class="body" x="1040" y="458">Bounded Loss</text>
   <rect class="red" x="930" y="520" width="86" height="34"/>
-  <text class="body" x="1040" y="542">recovery plan</text>
+  <text class="body" x="1040" y="542">Recovery Plan</text>
 
   <rect class="black" x="76" y="628" width="1128" height="56"/>
-  <text class="micro white" x="104" y="651">RESEARCH FIELD</text>
-  <text class="small white" x="104" y="672">Directed network design / certificate lifting / fixed-parameter recovery</text>
+  <text class="micro white" x="104" y="651">Research Field</text>
+  <text class="small white" x="104" y="672">Directed Network Design / Certificate Lifting / Fixed-Parameter Recovery</text>
   <rect class="red" x="658" y="628" width="10" height="56"/>
-  <text class="micro white" x="692" y="651">APPLICATION</text>
-  <text class="small white" x="692" y="672">Cloud restoration / service repair / operational resilience planning</text>
+  <text class="micro white" x="692" y="651">Application</text>
+  <text class="small white" x="692" y="672">Cloud Restoration / Service Repair / Operational Resilience Planning</text>
 </svg>
