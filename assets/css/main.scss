@@ -377,16 +377,14 @@ h4,
 
 .post-title-zh {
   display: inline-block;
-  margin-top: 0.55rem;
-  padding: 0.18rem 0.55rem;
-  border-radius: 0.25rem;
+  margin-top: 0.08rem;
+  padding: 0;
   font-family: "BiauKai", "DFKai-SB", "KaiTi", "標楷體", serif;
-  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-size: clamp(1.3rem, 2.8vw, 1.9rem);
   font-style: italic;
   font-weight: 400;
   line-height: 1.25;
-  color: var(--global-text-color-light);
-  background: rgba(130, 130, 130, 0.12);
+  color: var(--global-text-color);
 }
 
 .post-header .desc {
