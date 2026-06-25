@@ -50,7 +50,7 @@ Currently, I serve as a **Senior Program Manager/Technical Manager at MediaTek I
 
 ## Executive Trajectory
 
-My professional path moves from engineering and analytics into senior program management. At MediaTek Inc., I work close to the coordination layer between technical planning, product execution, and organizational delivery. Previously, at Garmin, I developed hands-on project governance experience from engineering progress through product realization. Earlier analytical work with Airbus broadened my exposure to international, high-standard industrial contexts.
+My professional path moves from engineering and analytics into senior program management. At MediaTek Inc., I work close to the coordination layer between technical planning, product execution, and organizational delivery. Previously, at Garmin Ltd., I developed hands-on project governance experience from engineering progress through product realization. Earlier analytical work with Airbus UK broadened my exposure to international, high-standard industrial contexts.
 
 This trajectory shapes a practical advisory style: technically literate, evidence-oriented, execution-aware, and careful about the difference between a promising idea and a decision that can survive operational reality.
 

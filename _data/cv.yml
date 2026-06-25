@@ -29,19 +29,19 @@
   type: time_table
   contents:
     - title: Engineering Project Manager
-      institution: Garmin
+      institution: Garmin Ltd.
       year: 2021 - 2023
       description:
         - Led engineering and product delivery work from execution planning through product realization.
         - Built project governance experience around decision quality, schedule discipline, and operational outcomes.
     - title: System Engineer
-      institution: Garmin
+      institution: Garmin Ltd.
       year: 2019 - 2022
       description:
         - Supported engineering execution and system-level product development work.
         - Built hands-on experience connecting technical requirements, implementation progress, and product quality.
     - title: Data Analyst / Contractor
-      institution: Airbus
+      institution: Airbus UK
       year: 2017
       description:
         - Participated in analytical work within an international industrial environment.
