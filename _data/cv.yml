@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Yen-Chun (Brian) Wen
+      value: Yen-Chun (Brian) Wen｜溫彥俊
     - name: Location
       value: Taipei, Taiwan
     - name: Languages
@@ -14,7 +14,7 @@
   type: time_table
   contents:
     - title: Senior Program Manager/Technical Manager
-      institution: MediaTek
+      institution: MediaTek Inc.
       year: 2023 - Present
       description:
         - Works at the coordination layer of technology, product execution, and cross-functional delivery.

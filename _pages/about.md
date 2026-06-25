@@ -5,7 +5,7 @@ permalink: /
 subtitle: Strategy & Governance Consultant
 subtitle_lines:
   - Assistant Professor, National Taipei University
-  - Senior Program Manager/Technical Manager, MediaTek
+  - Senior Program Manager/Technical Manager, MediaTek Inc.
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: true
 
 I help organizations translate technology, data, and operational complexity into clearer strategic and governance decisions. My work sits at the intersection of semiconductor and communication engineering, product and program governance, statistical computing, mathematical modeling, and prescriptive analytics.
 
-Currently, I serve as a **Senior Program Manager/Technical Manager at MediaTek** and an **Assistant Professor at National Taipei University**. This dual perspective keeps my work grounded in both execution and analysis: how technical roadmaps become products, how cross-functional teams manage risk, and how structured evidence can support better long-term decisions.
+Currently, I serve as a **Senior Program Manager/Technical Manager at MediaTek Inc.** and an **Assistant Professor at National Taipei University**. This dual perspective keeps my work grounded in both execution and analysis: how technical roadmaps become products, how cross-functional teams manage risk, and how structured evidence can support better long-term decisions.
 
 <div class="advisory-callout">
   <p class="eyebrow">Technology × Data × Governance</p>
@@ -50,7 +50,7 @@ Currently, I serve as a **Senior Program Manager/Technical Manager at MediaTek**
 
 ## Executive Trajectory
 
-My professional path moves from engineering and analytics into senior program management. At MediaTek, I work close to the coordination layer between technical planning, product execution, and organizational delivery. Previously, at Garmin, I developed hands-on project governance experience from engineering progress through product realization. Earlier analytical work with Airbus broadened my exposure to international, high-standard industrial contexts.
+My professional path moves from engineering and analytics into senior program management. At MediaTek Inc., I work close to the coordination layer between technical planning, product execution, and organizational delivery. Previously, at Garmin, I developed hands-on project governance experience from engineering progress through product realization. Earlier analytical work with Airbus broadened my exposure to international, high-standard industrial contexts.
 
 This trajectory shapes a practical advisory style: technically literate, evidence-oriented, execution-aware, and careful about the difference between a promising idea and a decision that can survive operational reality.
 
