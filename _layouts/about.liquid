@@ -8,7 +8,13 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        {% assign title_parts = site.title | split: '｜' %}
+        {% if title_parts.size > 1 %}
+          <span class="post-title-en">{{ title_parts[0] }}</span>
+          <span class="post-title-zh">{{ title_parts[1] }}</span>
+        {% else %}
+          {{ site.title }}
+        {% endif %}
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
