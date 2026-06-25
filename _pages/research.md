@@ -40,18 +40,18 @@ nav_order: 4
 
 <div class="research-paper">
   <div class="research-paper-copy">
-    <p class="research-eyebrow">Combinatorial Optimization / Service Recovery</p>
-    <h3>Primitive Dependency Recovery: Complementarity, Certificate-Loss Decomposition, and Fixed-Parameter Exact Algorithms</h3>
+    <p class="research-eyebrow">Resilience Optimization / Service Recovery</p>
+    <h3>Service Dependency Recovery and Resilience Optimization</h3>
     <p>
-      This paper studies post-incident service-dependency restoration as a directed network-design problem.
-      Given surviving zero-cost arcs and costly recovery arcs, the model selects a minimum-cost recovery set
-      that restores reachability from a source service to all critical terminals.
+      This research framework models post-incident enterprise recovery as a structured service-dependency
+      restoration problem. After a disruption, surviving connections, failed dependencies, and costly recovery
+      actions are converted into an auditable decision system for restoring critical service reachability.
     </p>
     <p>
-      The research field connects combinatorial optimization, directed network design, certificate lifting,
-      fixed-parameter algorithms, and non-submodular coverage analysis. Its application context is cloud-native
-      service restoration, microservice dependency repair, fallback-path selection, and recovery planning after
-      operational incidents in distributed enterprise systems.
+      The framework connects combinatorial optimization, directed network design, certificate-based reasoning,
+      and fixed-parameter recovery logic. Rather than treating recovery as an ad hoc operational response, it
+      formalizes which dependencies should be repaired, how recovery actions interact, and which restoration
+      paths create the most reliable return to service.
     </p>
     <ul>
       <li>Focus: primitive recovery actions, critical terminal reachability, and service-dependency repair.</li>
@@ -60,7 +60,7 @@ nav_order: 4
     </ul>
   </div>
   <figure class="research-figure">
-    <img src="{{ '/assets/img/research-pdr-framework.svg' | relative_url }}" alt="Bauhaus-style primitive dependency recovery research framework">
+    <img src="{{ '/assets/img/research-pdr-framework.svg' | relative_url }}" alt="Bauhaus-style service dependency recovery and resilience optimization framework">
     <figcaption>Framework summary: surviving service links and costly recovery actions are lifted into certificates, diagnosed for complementarity and loss, and converted into exact or approximate recovery decisions.</figcaption>
   </figure>
 </div>

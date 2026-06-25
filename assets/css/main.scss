@@ -539,7 +539,8 @@ footer.sticky-bottom {
   }
 
   .post-title:has(.post-title-zh) {
-    font-size: clamp(1.45rem, 8vw, 2.1rem);
+    font-size: clamp(1.18rem, 6.2vw, 1.7rem);
+    line-height: 1.08;
   }
 
   .navbar .nav-link {
