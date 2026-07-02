@@ -5,7 +5,7 @@ permalink: /
 subtitle: Strategy & Governance Consultant
 subtitle_lines:
   - Senior Program Manager/Technical Manager, MediaTek Inc.
-  - Assistant Professor, National Taipei University
+  - Adj. Assist. Professor, National Taipei University
 
 profile:
   align: right
