@@ -69,4 +69,4 @@ For executives and boards, the most valuable contribution is not a single specia
 
 ## Contact
 
-For strategy planning, technology evaluation, risk identification, analytics, and governance advisory conversations, please contact me at [brianwen@mail.ntpu.edu.tw](mailto:brianwen@mail.ntpu.edu.tw) or connect via [LinkedIn](https://www.linkedin.com/in/y-c-wen-331324121/).
+For strategy planning, technology evaluation, risk identification, analytics, and governance advisory conversations, please contact me at [brianwen@mail.ntpu.edu.tw](mailto:brianwen@mail.ntpu.edu.tw) or connect via [LinkedIn](https://www.linkedin.com/in/brian-wen-331324121/).
