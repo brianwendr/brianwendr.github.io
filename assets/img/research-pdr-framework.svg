@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 716" role="img" aria-labelledby="title desc">
   <title id="title">Primitive Dependency Recovery Framework</title>
   <desc id="desc">A clean Bauhaus-style research framework for primitive dependency recovery and certificate-guided service restoration.</desc>
   <defs>
@@ -26,7 +26,7 @@
     </marker>
   </defs>
 
-  <rect class="bg" width="1280" height="620"/>
+  <rect class="bg" width="1280" height="716"/>
   <rect class="black" x="0" y="0" width="1280" height="16"/>
   <rect class="blue" x="0" y="16" width="220" height="18"/>
   <rect class="yellow" x="220" y="16" width="260" height="18"/>
@@ -39,6 +39,16 @@
   <circle class="blue" cx="1170" cy="104" r="43"/>
   <line class="stroke" x1="60" y1="152" x2="1220" y2="152"/>
 
+  <g id="research-summary">
+    <rect class="black" x="76" y="178" width="1128" height="56"/>
+    <text class="micro white" x="104" y="201">Research Field</text>
+    <text class="small white" x="104" y="223">Directed Network Design / Certificate Lifting / Fixed-Parameter Recovery</text>
+    <rect class="red" x="658" y="178" width="10" height="56"/>
+    <text class="micro white" x="692" y="201">Application</text>
+    <text class="small white" x="692" y="223">Cloud Restoration / Service Repair / Operational Resilience Planning</text>
+  </g>
+
+  <g id="workflow" transform="translate(0 96)">
   <text class="section" x="94" y="210">Problem Structure</text>
   <text class="section" x="496" y="210">Certificate Lift</text>
   <text class="section" x="910" y="210">Recovery Decision</text>
@@ -83,5 +93,5 @@
   <text class="body" x="1040" y="458">Bounded Loss</text>
   <rect class="red" x="930" y="520" width="86" height="34"/>
   <text class="body" x="1040" y="542">Recovery Plan</text>
-
+  </g>
 </svg>

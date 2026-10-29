@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 716" role="img" aria-labelledby="title desc">
   <title id="title">Automation Decision Intelligence Framework</title>
   <desc id="desc">Framework for automation research: product, process, and service data feed TOPSIS ranking, MLP prediction, and Kaplan–Meier reliability analysis to support investment and service design decisions.</desc>
   <defs>
@@ -24,7 +24,7 @@
     </marker>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1280" height="620"/>
+  <rect class="bg" x="0" y="0" width="1280" height="716"/>
   <rect class="ink" x="0" y="0" width="1280" height="16"/>
   <rect class="red" x="0" y="16" width="190" height="18"/>
   <rect class="blue" x="190" y="16" width="250" height="18"/>
@@ -38,6 +38,16 @@
   <text class="title" x="170" y="84">Automation Decision Intelligence</text>
   <text class="subtitle" x="170" y="116">TOPSIS Design Analytics and Microservice Quality Assessment</text>
 
+  <g id="research-summary">
+    <rect class="ink" x="70" y="178" width="1140" height="56"/>
+    <text class="micro white" x="96" y="201">Research Methods</text>
+    <text class="small white" x="96" y="223">TOPSIS Design Analytics + Microservice Quality Assessment</text>
+    <rect class="blue" x="680" y="178" width="10" height="56"/>
+    <text class="micro white" x="714" y="201">Application</text>
+    <text class="small white" x="714" y="223">Automation Investment / Service Design / Reliability</text>
+  </g>
+
+  <g id="workflow" transform="translate(0 96)">
   <text class="kicker" x="72" y="205">Operational Data</text>
   <text class="kicker" x="360" y="205">Decision Model</text>
   <text class="kicker" x="660" y="205">Learning + Simulation</text>
@@ -85,5 +95,5 @@
   <text class="small" x="1105" y="438">Innovation</text>
   <rect class="yellow line" x="1008" y="500" width="80" height="38"/>
   <text class="small" x="1105" y="526">Quality Plan</text>
-
+  </g>
 </svg>
