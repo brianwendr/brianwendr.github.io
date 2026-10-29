@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 716" role="img" aria-labelledby="title desc">
+  <title id="title">服務相依修復研究架構</title>
+  <desc id="desc">以服務圖、修復憑證與精確或近似演算法，分析關鍵服務的相依修復決策。</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f3e8}
+      .paper{fill:#fffaf0}
+      .black{fill:#111}
+      .red{fill:#d93a31}
+      .blue{fill:#2465ad}
+      .yellow{fill:#f3c631}
+      .stroke{stroke:#111;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter}
+      .thin{stroke:#111;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:miter}
+      .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 9;fill:none}
+      .title{font:800 42px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#111}
+      .subtitle{font:500 18px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#333}
+      .section{font:800 13px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;letter-spacing:2px;fill:#111}
+      .label{font:800 22px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#111}
+      .body{font:600 15px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#222}
+      .small{font:700 13px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#222}
+      .micro{font:800 11px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;letter-spacing:1.2px;fill:#111}
+      .white{fill:#fff}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#111"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1280" height="716"/>
+  <rect class="black" x="0" y="0" width="1280" height="16"/>
+  <rect class="blue" x="0" y="16" width="220" height="18"/>
+  <rect class="yellow" x="220" y="16" width="260" height="18"/>
+  <rect class="red" x="480" y="16" width="180" height="18"/>
+
+  <circle class="red" cx="92" cy="94" r="36"/>
+  <text class="title" x="152" y="86">服務相依修復與韌性最佳化</text>
+  <text class="subtitle" x="152" y="118">以修復憑證分析關鍵服務的恢復順序</text>
+  <rect class="yellow stroke" x="1052" y="60" width="84" height="84"/>
+  <circle class="blue" cx="1170" cy="104" r="43"/>
+  <line class="stroke" x1="60" y1="152" x2="1220" y2="152"/>
+
+  <g id="research-summary">
+    <rect class="black" x="76" y="178" width="1128" height="56"/>
+    <text class="micro white" x="104" y="201">研究領域</text>
+    <text class="small white" x="104" y="223">有向網路設計／憑證提升／固定參數演算法</text>
+    <rect class="red" x="658" y="178" width="10" height="56"/>
+    <text class="micro white" x="692" y="201">應用</text>
+    <text class="small white" x="692" y="223">雲端服務恢復／相依修復／營運韌性</text>
+  </g>
+
+  <g id="workflow" transform="translate(0 96)">
+  <text class="section" x="94" y="210">問題結構</text>
+  <text class="section" x="496" y="210">修復憑證</text>
+  <text class="section" x="910" y="210">修復決策</text>
+
+  <rect class="paper stroke" x="76" y="234" width="310" height="342"/>
+  <circle class="blue" cx="156" cy="306" r="34"/>
+  <circle class="yellow stroke" cx="274" cy="370" r="30"/>
+  <circle class="yellow stroke" cx="170" cy="430" r="26"/>
+  <circle class="yellow stroke" cx="286" cy="482" r="26"/>
+  <line class="thin" x1="184" y1="324" x2="247" y2="354" marker-end="url(#arrow)"/>
+  <path class="dash" d="M192 414 L250 392"/>
+  <line class="thin" x1="193" y1="442" x2="260" y2="472" marker-end="url(#arrow)"/>
+  <text class="label" x="102" y="536">服務相依圖</text>
+  <text class="body" x="102" y="562">存續連結與關鍵服務</text>
+  <rect class="red" x="306" y="284" width="46" height="120"/>
+  <text class="micro" x="312" y="430">修復</text>
+  <text class="micro" x="312" y="448">成本</text>
+
+  <path class="stroke" d="M410 405 H470" marker-end="url(#arrow)"/>
+
+  <rect class="paper stroke" x="490" y="234" width="300" height="342"/>
+  <rect class="yellow stroke" x="560" y="282" width="160" height="174"/>
+  <rect class="black" x="560" y="282" width="160" height="20"/>
+  <rect class="blue" x="526" y="328" width="58" height="58"/>
+  <circle class="red" cx="724" cy="354" r="31"/>
+  <circle class="paper stroke" cx="640" cy="374" r="32"/>
+  <rect class="black" x="600" y="420" width="82" height="8"/>
+  <rect class="black" x="600" y="438" width="58" height="8"/>
+  <rect class="paper stroke" x="548" y="452" width="184" height="36"/>
+  <text class="micro" x="589" y="475">覆蓋單位</text>
+  <text class="label" x="530" y="532">修復憑證</text>
+  <text class="body" x="530" y="558">修復組合與模型損失</text>
+
+  <path class="stroke" d="M814 405 H874" marker-end="url(#arrow)"/>
+
+  <rect class="paper stroke" x="894" y="234" width="310" height="342"/>
+  <circle class="yellow stroke" cx="970" cy="312" r="43"/>
+  <text class="label" x="1040" y="306">FPT 精確解</text>
+  <text class="body" x="1040" y="332">少量關鍵服務</text>
+  <rect class="blue" x="930" y="402" width="86" height="86"/>
+  <text class="label" x="1040" y="432">貪婪近似</text>
+  <text class="body" x="1040" y="458">損失界限</text>
+  <rect class="red" x="930" y="520" width="86" height="34"/>
+  <text class="body" x="1040" y="542">修復計畫</text>
+  </g>
+</svg>

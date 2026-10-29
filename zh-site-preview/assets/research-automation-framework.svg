@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 716" role="img" aria-labelledby="title desc">
+  <title id="title">自動化決策分析研究架構</title>
+  <desc id="desc">由產品、流程與服務資料，透過 TOPSIS、多準則決策、機器學習及可靠度分析，支援自動化相關決策。</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f4ea}
+      .ink{fill:#111}
+      .red{fill:#d63a2f}
+      .yellow{fill:#f2c230}
+      .blue{fill:#1f5da8}
+      .cream{fill:#fffaf0}
+      .line{stroke:#111;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter}
+      .thin{stroke:#111;stroke-width:2.5;stroke-linecap:square}
+      .title{font:800 39px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;letter-spacing:.2px;fill:#111}
+      .subtitle{font:500 18px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#333}
+      .kicker{font:800 13px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;letter-spacing:2px;fill:#111}
+      .label{font:800 20px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#111}
+      .small{font:600 14px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#222}
+      .micro{font:800 11px "Noto Sans CJK TC","Microsoft JhengHei",sans-serif;letter-spacing:1.3px;fill:#111}
+      .white{fill:#fff}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#111"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1280" height="716"/>
+  <rect class="ink" x="0" y="0" width="1280" height="16"/>
+  <rect class="red" x="0" y="16" width="190" height="18"/>
+  <rect class="blue" x="190" y="16" width="250" height="18"/>
+  <rect class="yellow" x="440" y="16" width="230" height="18"/>
+
+  <rect class="blue" x="70" y="60" width="70" height="70"/>
+  <circle class="yellow line" cx="1102" cy="97" r="45"/>
+  <rect class="red" x="1166" y="62" width="70" height="70"/>
+  <line class="line" x1="54" y1="150" x2="1218" y2="150"/>
+
+  <text class="title" x="170" y="84">自動化決策分析</text>
+  <text class="subtitle" x="170" y="116">TOPSIS 設計評估與微服務品質分析</text>
+
+  <g id="research-summary">
+    <rect class="ink" x="70" y="178" width="1140" height="56"/>
+    <text class="micro white" x="96" y="201">研究方法</text>
+    <text class="small white" x="96" y="223">TOPSIS 設計評估／微服務品質分析</text>
+    <rect class="blue" x="680" y="178" width="10" height="56"/>
+    <text class="micro white" x="714" y="201">應用</text>
+    <text class="small white" x="714" y="223">自動化投資／服務設計／可靠度</text>
+  </g>
+
+  <g id="workflow" transform="translate(0 96)">
+  <text class="kicker" x="72" y="205">營運資料</text>
+  <text class="kicker" x="360" y="205">決策模型</text>
+  <text class="kicker" x="660" y="205">學習與模擬</text>
+  <text class="kicker" x="990" y="205">決策支援</text>
+
+  <rect class="cream line" x="60" y="225" width="246" height="350"/>
+  <circle class="red" cx="122" cy="286" r="35"/>
+  <text class="label" x="174" y="292">產品</text>
+  <rect class="blue" x="87" y="354" width="70" height="70"/>
+  <text class="label" x="174" y="394">流程</text>
+  <circle class="yellow line" cx="122" cy="493" r="35"/>
+  <text class="label" x="174" y="499">服務</text>
+  <text class="small" x="88" y="542">自動化資料</text>
+
+  <path class="line" d="M325 400 H350" marker-end="url(#arrow)"/>
+
+  <rect class="cream line" x="365" y="225" width="246" height="350"/>
+  <rect class="yellow line" x="395" y="260" width="84" height="84"/>
+  <text class="label" x="497" y="292">TOPSIS</text>
+  <text class="small" x="497" y="318">多準則排序</text>
+  <rect class="red" x="395" y="390" width="84" height="84"/>
+  <text class="label" x="497" y="420">MCDA</text>
+  <text class="small" x="497" y="446">設計優先順序</text>
+  <line class="thin" x1="432" y1="354" x2="432" y2="382" marker-end="url(#arrow)"/>
+
+  <path class="line" d="M630 400 H655" marker-end="url(#arrow)"/>
+
+  <rect class="cream line" x="670" y="225" width="246" height="350"/>
+  <circle class="blue" cx="738" cy="302" r="42"/>
+  <text class="label" x="794" y="296">MLP</text>
+  <text class="small" x="794" y="320">品質預測</text>
+  <rect class="yellow line" x="696" y="390" width="84" height="84"/>
+  <text class="label" x="794" y="420">K-M</text>
+  <text class="small" x="794" y="444">可靠度</text>
+  <line class="thin" x1="738" y1="348" x2="738" y2="382" marker-end="url(#arrow)"/>
+
+  <path class="line" d="M935 400 H960" marker-end="url(#arrow)"/>
+
+  <rect class="cream line" x="975" y="225" width="246" height="350"/>
+  <rect class="blue" x="1008" y="260" width="80" height="80"/>
+  <text class="label" x="1105" y="291">排序</text>
+  <text class="small" x="1105" y="315">投資選項</text>
+  <circle class="red" cx="1048" cy="424" r="40"/>
+  <text class="label" x="1105" y="414">服務</text>
+  <text class="small" x="1105" y="438">創新</text>
+  <rect class="yellow line" x="1008" y="500" width="80" height="38"/>
+  <text class="small" x="1105" y="526">品質改善</text>
+  </g>
+</svg>
