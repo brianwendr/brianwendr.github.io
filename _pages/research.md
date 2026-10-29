@@ -12,7 +12,7 @@ nav_order: 4
   <h2>Researching how enterprises turn uncertain technical, operational, and market signals into better decisions.</h2>
   <p>
     The lab connects decision science, system simulation, financial technology, and computational learning
-    to support evidence-based governance for Industry 4.0, service innovation, product strategy, and
+    to support evidence-based governance for automation, service innovation, product strategy, and
     risk-aware enterprise transformation.
   </p>
 </section>
@@ -43,15 +43,14 @@ nav_order: 4
     <p class="research-eyebrow">Resilience Optimization / Service Recovery</p>
     <h3>Service Dependency Recovery and Resilience Optimization</h3>
     <p>
-      This research framework models post-incident enterprise recovery as a structured service-dependency
-      restoration problem. After a disruption, surviving connections, failed dependencies, and costly recovery
-      actions are converted into an auditable decision system for restoring critical service reachability.
+      This work studies how to restore critical services after an outage. It models surviving links,
+      failed dependencies, and the cost of individual repair actions as a directed service graph.
     </p>
     <p>
-      The framework connects combinatorial optimization, directed network design, certificate-based reasoning,
-      and fixed-parameter recovery logic. Rather than treating recovery as an ad hoc operational response, it
-      formalizes which dependencies should be repaired, how recovery actions interact, and which restoration
-      paths create the most reliable return to service.
+      Repair actions are grouped into recovery certificates to examine where they reinforce one another
+      or lose coverage. Exact and approximation methods then identify which dependencies to repair
+      to restore critical service reachability. The resulting plans support cloud service restoration
+      and dependency repair.
     </p>
     <ul>
       <li>Focus: primitive recovery actions, critical terminal reachability, and service-dependency repair.</li>
@@ -60,34 +59,33 @@ nav_order: 4
     </ul>
   </div>
   <figure class="research-figure">
-    <img src="{{ '/assets/img/research-pdr-framework.svg' | relative_url }}" alt="Bauhaus-style service dependency recovery and resilience optimization framework">
-    <figcaption>Framework summary: surviving service links and costly recovery actions are lifted into certificates, diagnosed for complementarity and loss, and converted into exact or approximate recovery decisions.</figcaption>
+    <img src="{{ '/assets/img/research-pdr-framework.svg' | relative_url }}" alt="Service dependency recovery framework linking service graphs, recovery certificates, and repair decisions">
+    <figcaption>Service dependency recovery through certificate-based optimization.</figcaption>
   </figure>
 </div>
 
 <div class="research-paper">
   <div class="research-paper-copy">
-    <p class="research-eyebrow">Decision Science / Simulation / Industry 4.0</p>
-    <h3>Industry 4.0 Decision Intelligence: TOPSIS Design Analytics and Microservice Quality Assessment</h3>
+    <p class="research-eyebrow">Decision Science / Simulation / Automation</p>
+    <h3>Automation Decision Intelligence: TOPSIS Design Analytics and Microservice Quality Assessment</h3>
     <p>
-      This integrated framework combines two Industry 4.0 studies: product and process design through
-      TOPSIS system analysis, and service innovation and microservice quality assessment through data
-      modeling, MLP prediction, and Kaplan-Meier reliability simulation.
+      This work brings together two studies on automation: choosing product and process designs with
+      TOPSIS, and assessing microservice quality through data modeling, multilayer perceptron (MLP)
+      prediction, and Kaplan–Meier reliability analysis.
     </p>
     <p>
-      Together, the two papers show how enterprise signals can be transformed into decision constructs,
-      evaluated through MCDA and computational learning, and translated into platform investment, service
-      architecture, reliability, and innovation recommendations.
+      Product, process, and service data are used to compare design options, assess reliability, and
+      guide automation investment, service architecture choices, and quality improvement.
     </p>
     <ul>
       <li>Focus: product innovation, process design, microservice architecture, reliability, and service quality.</li>
-      <li>Method: TOPSIS ranking, data modeling, MLP reliability prediction, and Kaplan-Meier simulation.</li>
-      <li>Managerial use: decision support for Industry 4.0 investment, architecture selection, and quality improvement.</li>
+      <li>Method: TOPSIS ranking, data modeling, MLP prediction, Kaplan–Meier analysis, and system simulation.</li>
+      <li>Managerial use: automation investment, architecture selection, and quality improvement.</li>
     </ul>
   </div>
   <figure class="research-figure">
-    <img src="{{ '/assets/img/research-industry40-framework.svg' | relative_url }}" alt="Bauhaus-style Industry 4.0 decision intelligence research framework">
-    <figcaption>Framework summary: Industry 4.0 product, process, and service signals are integrated through TOPSIS, learning, and simulation into decision-ready innovation and quality recommendations.</figcaption>
+    <img src="{{ '/assets/img/research-automation-framework.svg' | relative_url }}" alt="Automation research framework linking operational data, TOPSIS ranking, learning, and reliability analysis">
+    <figcaption>TOPSIS design comparison and microservice quality assessment for automation.</figcaption>
   </figure>
 </div>
 

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
-  <title id="title">Industry 4.0 Decision Intelligence Framework</title>
-  <desc id="desc">Bauhaus-style integrated framework for TOPSIS design analytics, microservice quality assessment, computational learning, and reliability simulation.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Automation Decision Intelligence Framework</title>
+  <desc id="desc">Framework for automation research: product, process, and service data feed TOPSIS ranking, MLP prediction, and Kaplan–Meier reliability analysis to support investment and service design decisions.</desc>
   <defs>
     <style>
       .bg{fill:#f7f4ea}
@@ -24,7 +24,7 @@
     </marker>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1280" height="760"/>
+  <rect class="bg" x="0" y="0" width="1280" height="620"/>
   <rect class="ink" x="0" y="0" width="1280" height="16"/>
   <rect class="red" x="0" y="16" width="190" height="18"/>
   <rect class="blue" x="190" y="16" width="250" height="18"/>
@@ -35,13 +35,13 @@
   <rect class="red" x="1166" y="62" width="70" height="70"/>
   <line class="line" x1="54" y1="150" x2="1218" y2="150"/>
 
-  <text class="title" x="170" y="84">Industry 4.0 Decision Intelligence</text>
-  <text class="subtitle" x="170" y="116">Integrating TOPSIS Design Analytics With Microservice Quality Assessment</text>
+  <text class="title" x="170" y="84">Automation Decision Intelligence</text>
+  <text class="subtitle" x="170" y="116">TOPSIS Design Analytics and Microservice Quality Assessment</text>
 
-  <text class="kicker" x="72" y="205">Enterprise Signals</text>
+  <text class="kicker" x="72" y="205">Operational Data</text>
   <text class="kicker" x="360" y="205">Decision Model</text>
   <text class="kicker" x="660" y="205">Learning + Simulation</text>
-  <text class="kicker" x="990" y="205">Managerial Output</text>
+  <text class="kicker" x="990" y="205">Decision Support</text>
 
   <rect class="cream line" x="60" y="225" width="246" height="350"/>
   <circle class="red" cx="122" cy="286" r="35"/>
@@ -50,7 +50,7 @@
   <text class="label" x="174" y="394">Process</text>
   <circle class="yellow line" cx="122" cy="493" r="35"/>
   <text class="label" x="174" y="499">Service</text>
-  <text class="small" x="88" y="542">Industry 4.0 Data</text>
+  <text class="small" x="88" y="542">Automation Data</text>
 
   <path class="line" d="M325 400 H350" marker-end="url(#arrow)"/>
 
@@ -60,7 +60,7 @@
   <text class="small" x="497" y="318">Criteria Ranking</text>
   <rect class="red" x="395" y="390" width="84" height="84"/>
   <text class="label" x="497" y="420">MCDA</text>
-  <text class="small" x="497" y="446">Priority Logic</text>
+  <text class="small" x="497" y="446">Design Priorities</text>
   <line class="thin" x1="432" y1="354" x2="432" y2="382" marker-end="url(#arrow)"/>
 
   <path class="line" d="M630 400 H655" marker-end="url(#arrow)"/>
@@ -68,7 +68,7 @@
   <rect class="cream line" x="670" y="225" width="246" height="350"/>
   <circle class="blue" cx="738" cy="302" r="42"/>
   <text class="label" x="794" y="296">MLP</text>
-  <text class="small" x="794" y="320">Quality Signal</text>
+  <text class="small" x="794" y="320">Quality Prediction</text>
   <rect class="yellow line" x="696" y="390" width="84" height="84"/>
   <text class="label" x="794" y="420">K-M</text>
   <text class="small" x="794" y="444">Reliability</text>
@@ -84,12 +84,6 @@
   <text class="label" x="1105" y="414">Service</text>
   <text class="small" x="1105" y="438">Innovation</text>
   <rect class="yellow line" x="1008" y="500" width="80" height="38"/>
-  <text class="small" x="1105" y="526">Quality Pathway</text>
+  <text class="small" x="1105" y="526">Quality Plan</text>
 
-  <rect class="ink" x="70" y="625" width="1140" height="56"/>
-  <text class="micro white" x="96" y="648">Integrated Papers</text>
-  <text class="small white" x="96" y="670">TOPSIS Design Analytics + Microservice Quality Assessment</text>
-  <rect class="blue" x="680" y="625" width="10" height="56"/>
-  <text class="micro white" x="714" y="648">Application</text>
-  <text class="small white" x="714" y="670">Platform Investment / Architecture Choice / Reliability Governance</text>
 </svg>
