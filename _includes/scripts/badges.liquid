@@ -1,6 +1,12 @@
-{% if site.enable_publication_badges.altmetric %}
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-{% endif %}
-{% if site.enable_publication_badges.dimensions %}
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
-{% endif %}
+<!-- Optional widgets must not delay the page load event. -->
+<script
+  defer
+  src="{{ '/assets/js/optional-widgets.js' | relative_url | bust_file_cache }}"
+  data-counter-src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+  {% if site.enable_publication_badges.altmetric %}
+    data-altmetric-src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"
+  {% endif %}
+  {% if site.enable_publication_badges.dimensions %}
+    data-dimensions-src="https://badge.dimensions.ai/badge.js"
+  {% endif %}
+></script>
