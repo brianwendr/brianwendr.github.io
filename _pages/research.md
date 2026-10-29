@@ -59,7 +59,7 @@ nav_order: 4
     </ul>
   </div>
   <figure class="research-figure">
-    <img src="{{ '/assets/img/research-pdr-framework.svg' | relative_url }}" alt="Service dependency recovery framework linking service graphs, recovery certificates, and repair decisions">
+    <img src="{{ '/assets/img/research-pdr-framework.svg' | relative_url | bust_file_cache }}" alt="Service dependency recovery framework linking service graphs, recovery certificates, and repair decisions">
     <figcaption>Service dependency recovery through certificate-based optimization.</figcaption>
   </figure>
 </div>
@@ -84,7 +84,7 @@ nav_order: 4
     </ul>
   </div>
   <figure class="research-figure">
-    <img src="{{ '/assets/img/research-automation-framework.svg' | relative_url }}" alt="Automation research framework linking operational data, TOPSIS ranking, learning, and reliability analysis">
+    <img src="{{ '/assets/img/research-automation-framework.svg' | relative_url | bust_file_cache }}" alt="Automation research framework linking operational data, TOPSIS ranking, learning, and reliability analysis">
     <figcaption>TOPSIS design comparison and microservice quality assessment for automation.</figcaption>
   </figure>
 </div>
